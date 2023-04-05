@@ -1,0 +1,16 @@
+# NAME: MailPort
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-02-15 23:45:31
+# DOMAIN: 7
+# DOMAIN-SUFFIX: 2
+# TOTAL: 9
+DST-PORT,25
+DST-PORT,109
+DST-PORT,110
+DST-PORT,143
+DST-PORT,465
+DST-PORT,587
+DST-PORT,995
+DST-PORT,993
+DST-PORT,994
