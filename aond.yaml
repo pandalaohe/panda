@@ -7,682 +7,786 @@ mode: Rule
 log-level: info
 ipv6: false
 hosts:
-  services.googleapis.cn: 216.58.200.67
-  www.google.cn: 216.58.200.67
-external-controller: 0.0.0.0:9090
-clash-for-android:
-  append-system-dns: false
-profile:
-  tracing: true
 dns:
   enable: true
-  listen: 127.0.0.1:8853
-  default-nameserver:
-    - 223.5.5.5
-    - 1.0.0.1
   ipv6: false
-  enhanced-mode: fake-ip
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  default-nameserver:
+    - 119.29.29.29
+    - 8.8.8.8
+    - 1.1.1.1
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - "*.lan"
-    - stun.*.*.*
-    - stun.*.*
-    - time.windows.com
-    - time.nist.gov
-    - time.apple.com
-    - time.asia.apple.com
-    - "*.ntp.org.cn"
-    - "*.openwrt.pool.ntp.org"
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
     - time1.cloud.tencent.com
-    - time.ustc.edu.cn
-    - pool.ntp.org
-    - ntp.ubuntu.com
-    - ntp.aliyun.com
-    - ntp1.aliyun.com
-    - ntp2.aliyun.com
-    - ntp3.aliyun.com
-    - ntp4.aliyun.com
-    - ntp5.aliyun.com
-    - ntp6.aliyun.com
-    - ntp7.aliyun.com
-    - time1.aliyun.com
-    - time2.aliyun.com
-    - time3.aliyun.com
-    - time4.aliyun.com
-    - time5.aliyun.com
-    - time6.aliyun.com
-    - time7.aliyun.com
-    - "*.time.edu.cn"
-    - time1.apple.com
-    - time2.apple.com
-    - time3.apple.com
-    - time4.apple.com
-    - time5.apple.com
-    - time6.apple.com
-    - time7.apple.com
-    - time1.google.com
-    - time2.google.com
-    - time3.google.com
-    - time4.google.com
+    - stun.*.*
+    - stun.*.*.*
+    - swscan.apple.com
+    - mesu.apple.com
     - music.163.com
-    - "*.music.163.com"
-    - "*.126.net"
+    - '*.music.163.com'
+    - '*.126.net'
     - musicapi.taihe.com
     - music.taihe.com
     - songsearch.kugou.com
     - trackercdn.kugou.com
-    - "*.kuwo.cn"
+    - '*.kuwo.cn'
     - api-jooxtt.sanook.com
     - api.joox.com
-    - joox.com
     - y.qq.com
-    - "*.y.qq.com"
+    - '*.y.qq.com'
     - streamoc.music.tc.qq.com
     - mobileoc.music.tc.qq.com
     - isure.stream.qqmusic.qq.com
     - dl.stream.qqmusic.qq.com
     - aqqmusic.tc.qq.com
     - amobile.music.tc.qq.com
-    - "*.xiami.com"
-    - "*.music.migu.cn"
-    - music.migu.cn
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
     - localhost.ptlogin2.qq.com
-    - "*.*.*.srv.nintendo.net"
-    - "*.*.stun.playstation.net"
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '*.xiami.com'
+    - '*.music.migu.cn'
+    - music.migu.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - '*.*.*.srv.nintendo.net'
+    - '*.*.stun.playstation.net'
     - xbox.*.*.microsoft.com
-    - "*.ipv6.microsoft.com"
-    - "*.*.xboxlive.com"
+    - '*.*.xboxlive.com'
+    - '*.ipv6.microsoft.com'
+    - teredo.*.*.*
+    - teredo.*.*
     - speedtest.cros.wr.pvp.net
-  nameserver:
-    - https://223.6.6.6/dns-query
-    - https://rubyfish.cn/dns-query
-    - https://dns.pub/dns-query
-  fallback:
-    - https://dns.rubyfish.cn/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - tls://8.8.4.4
-  fallback-filter:
-    geoip: true
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-      - 127.0.0.1/32
-    domain:
-      - +.google.com
-      - +.facebook.com
-      - +.twitter.com
-      - +.youtube.com
-      - +.xn--ngstr-lra8j.com
-      - +.google.cn
-      - +.googleapis.cn
-      - +.googleapis.com
-      - +.gvt1.com
+    - +.jjvip8.com
+    - www.douyu.com
+    - activityapi.huya.com
+    - activityapi.huya.com.w.cdngslb.com
+    - www.bilibili.com
+    - api.bilibili.com
+    - a.w.bilicdn1.com
+external-controller: 127.0.0.1:9090
+clash-for-android:
+  append-system-dns: false
+profile:
+  tracing: true
 proxies:
   - name: 🇭🇰 香港 01
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9300"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18300"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 02
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9305"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18305"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 03
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9310"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18310"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 04
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9315"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18315"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 05
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9320"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18320"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 06
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9325"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18325"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 07
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9330"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18330"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 08
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9335"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18335"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 09
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9340"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18340"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 10
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9345"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18345"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 11
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9350"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18350"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 12
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9400"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18400"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 13
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9405"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18405"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 14
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9410"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18410"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 15
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9415"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18415"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 16
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9420"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18420"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 17
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9425"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18425"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 18
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9430"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18430"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 19
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9435"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18435"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 20
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9440"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18440"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇭🇰 香港 21
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9445"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18445"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 01
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9100"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18100"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 02
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9105"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18105"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 03
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9110"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18110"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 04
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9115"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18115"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 05
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9120"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18120"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 06
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9125"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18125"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 07
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9130"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18130"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 08
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9135"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18135"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 09
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9140"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18140"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 10
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9145"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18145"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 11
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9150"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18150"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 12
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9155"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18155"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇺🇸 美国 13
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9160"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18160"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇯🇵 日本 01
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9002"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18002"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇯🇵 日本 02
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9005"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18005"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇯🇵 日本 03
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9010"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18010"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇯🇵 日本 04
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9015"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: 82d6cae.yojywp.xyz
+    port: "18015"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇯🇵 日本 05
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9020"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18020"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇯🇵 日本 06
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9025"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18025"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇯🇵 日本 07
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9030"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18030"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇯🇵 日本 08
     type: ss
-    server: e559bb5.orxyji.xyz
-    port: "9035"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    server: b13dbd2.gerofe.xyz
+    port: "18035"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇨🇳 台湾 01
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9355"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18355"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇨🇳 台湾 02
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9360"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18360"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇨🇳 台湾 03
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9365"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18365"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇨🇳 台湾 04
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9370"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18370"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇨🇳 台湾 05
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9375"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18375"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
+  - name: 🇨🇳 台湾 06
+    type: ss
+    server: b03d926.orxyji.xyz
+    port: "18356"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: t200l9DPiq.microsoft.com
+  - name: 🇨🇳 台湾 07
+    type: ss
+    server: b03d926.orxyji.xyz
+    port: "18361"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: t200l9DPiq.microsoft.com
+  - name: 🇨🇳 台湾 08
+    type: ss
+    server: 5ce629a.trqjrp.xyz
+    port: "18366"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: t200l9DPiq.microsoft.com
+  - name: 🇨🇳 台湾 09
+    type: ss
+    server: 5ce629a.trqjrp.xyz
+    port: "18371"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: t200l9DPiq.microsoft.com
+  - name: 🇨🇳 台湾 10
+    type: ss
+    server: 5ce629a.trqjrp.xyz
+    port: "18376"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: t200l9DPiq.microsoft.com
   - name: 🇸🇬 新加坡 01
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9380"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18380"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇸🇬 新加坡 02
     type: ss
     server: b03d926.orxyji.xyz
-    port: "9385"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18385"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇸🇬 新加坡 03
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9390"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18390"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
   - name: 🇸🇬 新加坡 04
     type: ss
     server: 5ce629a.trqjrp.xyz
-    port: "9395"
-    cipher: chacha20-ietf
-    password: AmyTelecom_11451419I981O
+    port: "18395"
+    cipher: aes-128-gcm
+    password: 4e8dcf99fe301675
     udp: true
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 30199-t200l9DPiq.download.microsoft.com
+      host: t200l9DPiq.microsoft.com
 proxy-groups:
   - name: AmyTelecom
     type: select
+    proxies:
+      - ♻️ Auto
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇭🇰 香港 06
+      - 🇭🇰 香港 07
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港 10
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港 12
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 14
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港 17
+      - 🇭🇰 香港 18
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 20
+      - 🇭🇰 香港 21
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 06
+      - 🇺🇸 美国 07
+      - 🇺🇸 美国 08
+      - 🇺🇸 美国 09
+      - 🇺🇸 美国 10
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - 🇺🇸 美国 13
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 05
+      - 🇯🇵 日本 06
+      - 🇯🇵 日本 07
+      - 🇯🇵 日本 08
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇸🇬 新加坡 04
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
     proxies:
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
@@ -731,6 +835,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -792,6 +901,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -848,6 +962,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -904,6 +1023,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -960,6 +1084,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1016,6 +1145,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1072,6 +1206,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1128,6 +1267,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1184,6 +1328,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1240,6 +1389,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1296,6 +1450,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1352,6 +1511,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1408,6 +1572,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1464,6 +1633,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1520,6 +1694,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1576,6 +1755,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1632,6 +1816,11 @@ proxy-groups:
       - 🇨🇳 台湾 03
       - 🇨🇳 台湾 04
       - 🇨🇳 台湾 05
+      - 🇨🇳 台湾 06
+      - 🇨🇳 台湾 07
+      - 🇨🇳 台湾 08
+      - 🇨🇳 台湾 09
+      - 🇨🇳 台湾 10
       - 🇸🇬 新加坡 01
       - 🇸🇬 新加坡 02
       - 🇸🇬 新加坡 03
@@ -1739,18 +1928,128 @@ rules:
   - DOMAIN-SUFFIX,nexitally.com,Final
   - DOMAIN-SUFFIX,amysecure.com,Final
   - DOMAIN-SUFFIX,amytele.com,Final
+  - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,112-81-125-43.dhost.00cdn.com,🎬 Bilibili
+  - DOMAIN,113-219-145-1.ksyungslb.com,🎬 Bilibili
+  - DOMAIN,114-236-92-129.ksyungslb.com,🎬 Bilibili
+  - DOMAIN,180-101-74-1.ksyungslb.com,🎬 Bilibili
+  - DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj38yzdcca.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj38yzdcco.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj38yzdkca.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj38yzdkco.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,218-91-225-1.ksyungslb.com,🎬 Bilibili
+  - DOMAIN,219-155-150-1.ksyungslb.com,🎬 Bilibili
+  - DOMAIN,222-188-6-1.ksyungslb.com,🎬 Bilibili
+  - DOMAIN,36-104-134-1.ksyungslb.com,🎬 Bilibili
+  - DOMAIN,36-25-252-1.ksyungslb.com,🎬 Bilibili
+  - DOMAIN,3ge3drmttga5nhcbqge3ur.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,3geauymtsgrzdnqbofa5do.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com,🎬 Bilibili
+  - DOMAIN,p-bstarstatic.akamaized.net,🎬 Bilibili
+  - DOMAIN,p.bstarstatic.com,🎬 Bilibili
+  - DOMAIN,upos-bstar-mirrorakam.akamaized.net,🎬 Bilibili
+  - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🎬 Bilibili
   - DOMAIN-SUFFIX,acg.tv,🎬 Bilibili
   - DOMAIN-SUFFIX,acgvideo.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,animetamashi.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,animetamashi.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,anitama.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,anitama.net,🎬 Bilibili
   - DOMAIN-SUFFIX,b23.tv,🎬 Bilibili
+  - DOMAIN-SUFFIX,baka.im,🎬 Bilibili
+  - DOMAIN-SUFFIX,bigfun.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,bigfunapp.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,bili22.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,bili2233.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,bili23.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,bili33.cn,🎬 Bilibili
   - DOMAIN-SUFFIX,biliapi.com,🎬 Bilibili
   - DOMAIN-SUFFIX,biliapi.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibili.cc,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibili.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibili.co,🎬 Bilibili
   - DOMAIN-SUFFIX,bilibili.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibili.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibili.tv,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibiligame.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibiligame.co,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibiligame.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibilipay.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilibilipay.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilicdn1.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilicdn2.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilicdn3.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilicdn4.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilicdn5.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilicomics.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,biligame.cn,🎬 Bilibili
+  - DOMAIN-SUFFIX,biligame.co,🎬 Bilibili
   - DOMAIN-SUFFIX,biligame.com,🎬 Bilibili
   - DOMAIN-SUFFIX,biligame.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,biligo.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,biliimg.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,biliintl.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,biliplus.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilivideo.cn,🎬 Bilibili
   - DOMAIN-SUFFIX,bilivideo.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,bilivideo.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,corari.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,dreamcast.hk,🎬 Bilibili
+  - DOMAIN-SUFFIX,dyhgames.com,🎬 Bilibili
   - DOMAIN-SUFFIX,hdslb.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,hdslb.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,hdslb.org,🎬 Bilibili
   - DOMAIN-SUFFIX,im9.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,maoercdn.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,mcbbs.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,mincdn.com,🎬 Bilibili
+  - DOMAIN-SUFFIX,sharejoytech.com,🎬 Bilibili
   - DOMAIN-SUFFIX,smtcdns.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,🎬 Bilibili
+  - DOMAIN-SUFFIX,yo9.com,🎬 Bilibili
+  - IP-CIDR,106.75.74.76/32,🎬 Bilibili
+  - IP-CIDR,111.206.25.147/32,🎬 Bilibili
+  - IP-CIDR,119.3.238.64/32,🎬 Bilibili
+  - IP-CIDR,120.92.108.182/32,🎬 Bilibili
+  - IP-CIDR,120.92.113.99/32,🎬 Bilibili
+  - IP-CIDR,120.92.153.217/32,🎬 Bilibili
+  - IP-CIDR,134.175.207.130/32,🎬 Bilibili
+  - IP-CIDR,203.107.1.0/24,🎬 Bilibili
   - DOMAIN-SUFFIX,mytvsuper.com,🎬 myTVSUPER
   - DOMAIN-SUFFIX,tvb.com,🎬 myTVSUPER
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,📲 LineTV
@@ -1779,7 +2078,7 @@ rules:
   - DOMAIN-SUFFIX,tik-tokapi.com,🎵 Tiktok
   - DOMAIN-SUFFIX,tiktokcdn.com,🎵 Tiktok
   - DOMAIN-SUFFIX,tiktokv.com,🎵 Tiktok
-  - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 Tiktok
+  - DOMAIN-KEYWORD,tiktokcdn,🎵 Tiktok
   - DOMAIN-SUFFIX,googlevideo.com,🎬 YouTube
   - DOMAIN-SUFFIX,youtube.com,🎬 YouTube
   - DOMAIN-SUFFIX,ytimg.com,🎬 YouTube
@@ -1980,18 +2279,18 @@ rules:
   - DOMAIN-KEYWORD,dualstack.apiproxy-,📺 Netflix
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-,📺 Netflix
   - DOMAIN-KEYWORD,netflixdnstest,📺 Netflix
-  - DOMAIN,mtalk.google.com,DIRECT
-  - DOMAIN,mobile-gtalk.l.google.com,DIRECT
-  - DOMAIN,alt1-mtalk.google.com,DIRECT
-  - DOMAIN,alt2-mtalk.google.com,DIRECT
-  - DOMAIN,alt3-mtalk.google.com,DIRECT
-  - DOMAIN,alt4-mtalk.google.com,DIRECT
-  - DOMAIN,alt5-mtalk.google.com,DIRECT
-  - DOMAIN,alt6-mtalk.google.com,DIRECT
-  - DOMAIN,alt7-mtalk.google.com,DIRECT
-  - DOMAIN,alt8-mtalk.google.com,DIRECT
-  - DOMAIN,alt9-mtalk.google.com,DIRECT
-  - DOMAIN-SUFFIX,mobile-gtalk.l.google.com,DIRECT
+  - DOMAIN,mtalk.google.com,🌐 Google
+  - DOMAIN,mobile-gtalk.l.google.com,🌐 Google
+  - DOMAIN,alt1-mtalk.google.com,🌐 Google
+  - DOMAIN,alt2-mtalk.google.com,🌐 Google
+  - DOMAIN,alt3-mtalk.google.com,🌐 Google
+  - DOMAIN,alt4-mtalk.google.com,🌐 Google
+  - DOMAIN,alt5-mtalk.google.com,🌐 Google
+  - DOMAIN,alt6-mtalk.google.com,🌐 Google
+  - DOMAIN,alt7-mtalk.google.com,🌐 Google
+  - DOMAIN,alt8-mtalk.google.com,🌐 Google
+  - DOMAIN,alt9-mtalk.google.com,🌐 Google
+  - DOMAIN-SUFFIX,mobile-gtalk.l.google.com,🌐 Google
   - DOMAIN-SUFFIX,265.com,🌐 Google
   - DOMAIN-SUFFIX,2mdn.net,🌐 Google
   - DOMAIN-SUFFIX,abc.xyz,🌐 Google
@@ -2100,6 +2399,8 @@ rules:
   - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🐹 OpenAI
   - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,🐹 OpenAI
   - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🐹 OpenAI
+  - DOMAIN-SUFFIX,oaistatic.com,🐹 OpenAI
+  - DOMAIN-SUFFIX,oaiusercontent.com,🐹 OpenAI
   - DOMAIN-SUFFIX,1drv.com,🖥 Microsoft
   - DOMAIN-SUFFIX,aadrm.com,🖥 Microsoft
   - DOMAIN-SUFFIX,acompli.com,🖥 Microsoft
@@ -2787,6 +3088,13 @@ rules:
   - IP-CIDR,172.16.0.0/12,China-Websites
   - IP-CIDR,127.0.0.0/8,China-Websites
   - IP-CIDR,100.64.0.0/10,China-Websites
+  - DOMAIN,blizzard.nefficient.co.kr,Final
+  - DOMAIN,blzddist1-a.akamaihd.net,Final
+  - DOMAIN,blzddistkr1-a.akamaihd.net,Final
+  - DOMAIN,bnetproduct-a.akamaihd.net,Final
+  - DOMAIN,cdn.blz-contentstack.com,Final
+  - DOMAIN-SUFFIX,battle.net,Final
+  - DOMAIN-SUFFIX,blizzard.com,Final
   - DOMAIN-SUFFIX,appspot.com,Final
   - DOMAIN-SUFFIX,blogger.com,Final
   - DOMAIN-SUFFIX,getoutline.org,Final
@@ -2846,7 +3154,6 @@ rules:
   - IP-CIDR,203.104.144.0/21,Final
   - DOMAIN-SUFFIX,4shared.com,Final
   - DOMAIN-SUFFIX,520cc.cc,Final
-  - DOMAIN-SUFFIX,881903.com,Final
   - DOMAIN-SUFFIX,9cache.com,Final
   - DOMAIN-SUFFIX,9gag.com,Final
   - DOMAIN-SUFFIX,abc.com,Final
@@ -3254,7 +3561,6 @@ rules:
   - DOMAIN-SUFFIX,cusu.hk,Final
   - DOMAIN-SUFFIX,discuss.com.hk,Final
   - DOMAIN-SUFFIX,dropboxapi.com,Final
-  - DOMAIN-SUFFIX,duolingo.cn,Final
   - DOMAIN-SUFFIX,edditstatic.com,Final
   - DOMAIN-SUFFIX,flickriver.com,Final
   - DOMAIN-SUFFIX,focustaiwan.tw,Final
