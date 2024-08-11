@@ -13,12 +13,53 @@ dns:
   listen: 0.0.0.0:1053
   use-hosts: true
   default-nameserver:
+    - 119.28.28.28
     - 119.29.29.29
-    - 8.8.8.8
-    - 1.1.1.1
-  nameserver:
     - 223.5.5.5
+    - 223.6.6.6
+  nameserver:
+    - 119.28.28.28
     - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+  fallback:
+    - https://dns.pub/dns-query
+    - https://doh.pub/dns-query
+    - https://doh.apad.pro/dns-query
+    - https://dns.alidns.com/dns-query
+    - tls://dns.pub:853
+    - tls://dot.pub:853
+    - tls://dns.alidns.com:853
+    - 119.28.28.28
+    - 119.29.29.29
+    - 223.5.5.5
+    - 223.6.6.6
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 233.252.0.0/24
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+      - ::/128
+      - ::1/128
+      - fc00::/7
+      - fe80::/10
+      - ff00::/8
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
@@ -1846,6 +1887,42 @@ proxy-groups:
       - AmyTelecom
       - DIRECT
 rules:
+  - DOMAIN,assets1.xboxlive.com,DIRECT
+  - DOMAIN,assets2.xboxlive.com,DIRECT
+  - DOMAIN,client.hikarifield.co.jp,DIRECT
+  - DOMAIN,csgo.wmsj.cn,DIRECT
+  - DOMAIN,dl.steam.clngaa.com,DIRECT
+  - DOMAIN,dl.steam.ksyna.com,DIRECT
+  - DOMAIN,dota2.wmsj.cn,DIRECT
+  - DOMAIN,download2.epicgames.com,DIRECT
+  - DOMAIN,download3.epicgames.com,DIRECT
+  - DOMAIN,download4.epicgames.com,DIRECT
+  - DOMAIN,download.cdp.bethesda.net,DIRECT
+  - DOMAIN,download.epicgames.com,DIRECT
+  - DOMAIN,download.hikarifield.co.jp,DIRECT
+  - DOMAIN,epicgames-download1.akamaized.net,DIRECT
+  - DOMAIN,gamedownloads-rockstargames-com.akamaized.net,DIRECT
+  - DOMAIN,gog-cdn-lumen.secure2.footprint.net,DIRECT
+  - DOMAIN,origin-a.akamaihd.net,DIRECT
+  - DOMAIN,packagespc.xboxlive.com,DIRECT
+  - DOMAIN,ssl-lvlt.cdn.ea.com,DIRECT
+  - DOMAIN,st.dl.bscstorage.net,DIRECT
+  - DOMAIN,st.dl.eccdnx.com,DIRECT
+  - DOMAIN,st.dl.pinyuncloud.com,DIRECT
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
+  - DOMAIN,steampowered.com.8686c.com,DIRECT
+  - DOMAIN,steamstatic.com.8686c.com,DIRECT
+  - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn,DIRECT
+  - DOMAIN,wmsjsteam.com,DIRECT
+  - DOMAIN,xvcf1.xboxlive.com,DIRECT
+  - DOMAIN,xvcf2.xboxlive.com,DIRECT
+  - DOMAIN,xz.pphimalayanrt.com,DIRECT
+  - DOMAIN-SUFFIX,cdn.ubi.com,DIRECT
+  - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
+  - DOMAIN-SUFFIX,dyn.riotcdn.net,DIRECT
+  - DOMAIN-SUFFIX,steamchina.com,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
   - DOMAIN-SUFFIX,emby.nexitally.com,🎬 Emby
   - DOMAIN-SUFFIX,yojywp.xyz,DIRECT
   - DOMAIN-SUFFIX,ap.spotify.com,DIRECT
@@ -2392,6 +2469,7 @@ rules:
   - DOMAIN-KEYWORD,www.google,🌐 Google
   - IP-CIDR,173.194.0.0/16,🌐 Google
   - IP-CIDR,74.125.0.0/16,🌐 Google
+  - DOMAIN-SUFFIX,chatgpt.com,🐹 OpenAI
   - DOMAIN-SUFFIX,openai.com,🐹 OpenAI
   - DOMAIN-SUFFIX,ai.com,🐹 OpenAI
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🐹 OpenAI
@@ -2401,6 +2479,10 @@ rules:
   - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net,🐹 OpenAI
   - DOMAIN-SUFFIX,oaistatic.com,🐹 OpenAI
   - DOMAIN-SUFFIX,oaiusercontent.com,🐹 OpenAI
+  - DOMAIN-SUFFIX,ios.chat.openai.com.cdn.cloudflare.net,🐹 OpenAI
+  - DOMAIN-SUFFIX,o33249.ingest.sentry.io,🐹 OpenAI
+  - DOMAIN-SUFFIX,api.revenuecat.com,🐹 OpenAI
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com,🐹 OpenAI
   - DOMAIN-SUFFIX,1drv.com,🖥 Microsoft
   - DOMAIN-SUFFIX,aadrm.com,🖥 Microsoft
   - DOMAIN-SUFFIX,acompli.com,🖥 Microsoft
@@ -2900,6 +2982,8 @@ rules:
   - DOMAIN-SUFFIX,yuanchengxiezuo.com,Hijacking
   - DOMAIN-SUFFIX,zbrushcn.com,Hijacking
   - DOMAIN-SUFFIX,zhzzx.com,Hijacking
+  - DOMAIN-SUFFIX,ltsgdty.gtimg.com,China-Websites
+  - DOMAIN-SUFFIX,speed.cloudflare.com,China-Websites
   - DOMAIN-SUFFIX,taichi-maker.com,China-Websites
   - DOMAIN-SUFFIX,leaguehd.com,China-Websites
   - DOMAIN-SUFFIX,plex.tv,China-Websites
@@ -3080,7 +3164,6 @@ rules:
   - DOMAIN-SUFFIX,zhihu.com,China-Websites
   - DOMAIN-SUFFIX,zhimg.com,China-Websites
   - DOMAIN-SUFFIX,zhuihd.com,China-Websites
-  - DOMAIN,download.jetbrains.com,China-Websites
   - DOMAIN-SUFFIX,local,China-Websites
   - DOMAIN,mtalk.google.com,China-Websites
   - IP-CIDR,192.168.0.0/16,China-Websites
@@ -3595,5 +3678,17 @@ rules:
   - DOMAIN-SUFFIX,wolframalpha.com,Final
   - DOMAIN-SUFFIX,x-art.com,Final
   - DOMAIN-SUFFIX,yimg.com,Final
+  - DOMAIN,e122475.dscg.akamaiedge.net,Final
+  - DOMAIN,licdn.cn.cdn20.com,Final
+  - DOMAIN,linkedin.sc.omtrdc.net,Final
+  - DOMAIN-SUFFIX,bizographics.com,Final
+  - DOMAIN-SUFFIX,l-0005.dc-msedge.net,Final
+  - DOMAIN-SUFFIX,l-0005.l-msedge.net,Final
+  - DOMAIN-SUFFIX,licdn.cn,Final
+  - DOMAIN-SUFFIX,licdn.com,Final
+  - DOMAIN-SUFFIX,linkedin.at,Final
+  - DOMAIN-SUFFIX,linkedin.cn,Final
+  - DOMAIN-SUFFIX,linkedin.com,Final
+  - DOMAIN-SUFFIX,lnkd.in,Final
   - GEOIP,CN,China-Websites
   - MATCH,Final
