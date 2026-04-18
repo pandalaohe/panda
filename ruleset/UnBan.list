@@ -12,3 +12,4 @@ DOMAIN-SUFFIX,pindao.huoban.taobao.com
 DOMAIN-SUFFIX,wangwang.taobao.com
 DOMAIN-SUFFIX,aliimg.com
 DOMAIN-SUFFIX,openclaudecode.cn
+IP-CIDR,139.199.85.25/32,no-resolve
