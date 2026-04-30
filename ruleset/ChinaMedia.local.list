@@ -2,6 +2,9 @@
 DOMAIN-SUFFIX,v.qq.com
 DOMAIN-SUFFIX,video.qq.com
 DOMAIN-SUFFIX,qqlive.com
+DOMAIN-SUFFIX,v.smtcdns.com
+DOMAIN-SUFFIX,vv.video.qq.com
+DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,gtimg.cn
 DOMAIN-SUFFIX,qpic.cn
@@ -20,6 +23,7 @@ DOMAIN-SUFFIX,71edge.com
 DOMAIN-SUFFIX,qy.net
 
 # Youku / 优酷 mainland
+DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,tudou.com
@@ -36,6 +40,7 @@ DOMAIN-SUFFIX,itc.cn
 DOMAIN-SUFFIX,le.com
 DOMAIN-SUFFIX,letv.com
 DOMAIN-SUFFIX,letvcdn.com
+DOMAIN-SUFFIX,api.mob.app.letv.com
 DOMAIN-SUFFIX,pptv.com
 DOMAIN-SUFFIX,pplive.com
 
