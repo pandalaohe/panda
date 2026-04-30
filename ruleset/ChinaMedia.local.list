@@ -1,0 +1,49 @@
+# Tencent Video / 云视听极光
+DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,qqlive.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,tencent-cloud.net
+
+# iQIYI / 爱奇艺 mainland
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,qiyipic.com
+DOMAIN-SUFFIX,ppsimg.com
+DOMAIN-SUFFIX,71.am
+DOMAIN-SUFFIX,71edge.com
+DOMAIN-SUFFIX,qy.net
+
+# Youku / 优酷 mainland
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,tudou.com
+
+# MangoTV / 芒果 TV mainland
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,hunantv.com
+DOMAIN-SUFFIX,imgo.tv
+
+# Sohu / LeTV / PPTV mainland
+DOMAIN-SUFFIX,tv.sohu.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,itc.cn
+DOMAIN-SUFFIX,le.com
+DOMAIN-SUFFIX,letv.com
+DOMAIN-SUFFIX,letvcdn.com
+DOMAIN-SUFFIX,pptv.com
+DOMAIN-SUFFIX,pplive.com
+
+# CCTV / Yangshipin / Migu mainland
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,cntv.cn
+DOMAIN-SUFFIX,cctvpic.com
+DOMAIN-SUFFIX,ysp.cctv.cn
+DOMAIN-SUFFIX,migu.cn
+DOMAIN-SUFFIX,miguvideo.com
+DOMAIN-SUFFIX,cmvideo.cn
