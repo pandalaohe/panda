@@ -1,0 +1,18 @@
+﻿# NAME: AdBlock_Low
+# PURPOSE: Low-confidence/local catch-all ad candidates. Keep after business/media/AI rules.
+DOMAIN-KEYWORD,advert
+DOMAIN-KEYWORD,adtrack
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,tracking
+DOMAIN-KEYWORD,tracklog
+DOMAIN-KEYWORD,metrics
+DOMAIN-SUFFIX,adform.net
+DOMAIN-SUFFIX,adroll.com
+DOMAIN-SUFFIX,criteo.com
+DOMAIN-SUFFIX,criteo.net
+DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,outbrain.com
+DOMAIN-SUFFIX,moatads.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,facebook-ads.com
+

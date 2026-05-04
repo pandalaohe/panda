@@ -1,0 +1,29 @@
+﻿# NAME: AdBlock_Allow
+# PURPOSE: Ad-block false-positive protection. Place before REJECT rules.
+DOMAIN-SUFFIX,pandahe.com
+DOMAIN-SUFFIX,argotunnel.com
+DOMAIN-SUFFIX,cloudflareclient.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,unionpay.com
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,msftconnecttest.com
+
