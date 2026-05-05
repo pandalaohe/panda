@@ -6,10 +6,13 @@
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,citizenwiki.cn
 DOMAIN-KEYWORD,m-team
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,open.cd
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,yojywp.xyz
 DOMAIN-KEYWORD,amysecure
 DOMAIN-SUFFIX,amytele.net
-DOMAIN-SUFFIX,open.cd
 DOMAIN-KEYWORD,taobao
 DOMAIN-SUFFIX,simba.taobao.com
 DOMAIN-SUFFIX,g.click.taobao.com
@@ -17,6 +20,20 @@ DOMAIN-SUFFIX,pindao.huoban.taobao.com
 DOMAIN-SUFFIX,wangwang.taobao.com
 DOMAIN-SUFFIX,aliimg.com
 DOMAIN-SUFFIX,openclaudecode.cn
+DOMAIN-SUFFIX,b886.top
+DOMAIN-SUFFIX,sssaicode.com
+DOMAIN-SUFFIX,packyapi.com
+DOMAIN-SUFFIX,clawto.link
+DOMAIN,code.b886.top
+DOMAIN,www.openclaudecode.cn
+DOMAIN,codex1.sssaicode.com
+DOMAIN,codex2.sssaicode.com
+DOMAIN,node-hk.sssaicode.com
+DOMAIN,anti.sssaicode.com
+DOMAIN,claude2.sssaicode.com
+DOMAIN,www.packyapi.com
+DOMAIN,api-slb.packyapi.com
+DOMAIN,api.clawto.link
 DOMAIN-SUFFIX,b888.top
 IP-CIDR,139.199.85.25/32,no-resolve
 
