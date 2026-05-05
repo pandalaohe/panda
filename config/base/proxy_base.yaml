@@ -1,4 +1,4 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
@@ -12,31 +12,13 @@ external-controller: 0.0.0.0:9090
 
 profile:
   store-selected: true
-  store-fake-ip: true
 
 dns:
   enable: true
-  listen: 0.0.0.0:53
+  listen: 0.0.0.0:7874
   ipv6: false
-  enhanced-mode: fake-ip
+  enhanced-mode: redir-host
   respect-rules: true
-  fake-ip-range: 198.18.0.0/16
-  fake-ip-filter-mode: rule
-  fake-ip-filter:
-    - RULE-SET,FakeIP_Filter_Wide,real-ip
-    - GEOSITE,private,real-ip
-    - GEOSITE,cn,real-ip
-    - GEOSITE,apple-cn,real-ip
-    - GEOSITE,microsoft@cn,real-ip
-    - GEOSITE,steam@cn,real-ip
-    - GEOSITE,category-games@cn,real-ip
-    - GEOSITE,category-game-platforms-download@cn,real-ip
-    - GEOSITE,category-public-tracker,real-ip
-    - GEOSITE,openai,fake-ip
-    - GEOSITE,anthropic,fake-ip
-    - GEOSITE,category-ai-!cn,fake-ip
-    - GEOSITE,category-ai-chat-!cn,fake-ip
-    - MATCH,fake-ip
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -46,6 +28,9 @@ dns:
   fallback:
     - https://dns.google/dns-query
     - https://dns.cloudflare.com/dns-query
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -54,9 +39,6 @@ dns:
       - "+.youtube.com"
       - "+.githubusercontent.com"
       - "+.googlevideo.com"
-  proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
   nameserver-policy:
     "geosite:private":
       - system
@@ -168,13 +150,3 @@ dns:
     "+.msftncsi.com":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-
-rule-providers:
-  FakeIP_Filter_Wide:
-    type: http
-    behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/dns/FakeIP_Filter_Wide.list"
-    path: ./ruleset/local/dns/FakeIP_Filter_Wide.list
-    interval: 86400
-
