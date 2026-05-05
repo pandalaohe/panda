@@ -23,6 +23,8 @@ dns:
   fake-ip-range: 198.18.0.0/16
   fake-ip-filter-mode: rule
   fake-ip-filter:
+    - RULE-SET,APIProviders,real-ip
+    - RULE-SET,PTSites,real-ip
     - RULE-SET,FakeIP_Filter_Wide,real-ip
     - GEOSITE,private,real-ip
     - GEOSITE,cn,real-ip
@@ -66,6 +68,33 @@ dns:
     "geosite:openai,anthropic,category-ai-!cn,category-ai-chat-!cn":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
+    "+.b886.top":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.openclaudecode.cn":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.sssaicode.com":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.packyapi.com":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.clawto.link":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.m-team.cc":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.open.cd":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.chdbits.co":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.totheglory.im":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
     "+.265.com":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
@@ -170,6 +199,22 @@ dns:
       - https://dns.alidns.com/dns-query
 
 rule-providers:
+  APIProviders:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/APIProviders.list"
+    path: ./ruleset/local/direct/APIProviders.list
+    interval: 86400
+
+  PTSites:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/PTSites.list"
+    path: ./ruleset/local/direct/PTSites.list
+    interval: 86400
+
   FakeIP_Filter_Wide:
     type: http
     behavior: classical

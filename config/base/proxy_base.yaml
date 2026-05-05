@@ -48,6 +48,33 @@ dns:
     "geosite:openai,anthropic,category-ai-!cn,category-ai-chat-!cn":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
+    "+.b886.top":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.openclaudecode.cn":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.sssaicode.com":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.packyapi.com":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.clawto.link":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.m-team.cc":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.open.cd":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.chdbits.co":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "+.totheglory.im":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
     "+.265.com":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
