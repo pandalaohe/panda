@@ -1,0 +1,20 @@
+# NAME: AdBlock_High
+# PURPOSE: High-confidence ad and tracking rules placed after allow/direct rules.
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,adsrvr.org
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,cnzz.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,facebook-ads.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,tracking
+DOMAIN-KEYWORD,advertising
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,adserver

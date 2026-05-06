@@ -71,18 +71,28 @@ dns:
     "+.b886.top":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
     "+.openclaudecode.cn":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
     "+.sssaicode.com":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
     "+.packyapi.com":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
     "+.clawto.link":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
     "+.m-team.cc":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
@@ -206,8 +216,8 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/APIProviders.list"
-    path: ./ruleset/local/direct/APIProviders.list
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/APIProviders_260506_001.list"
+    path: ./ruleset/local/direct/APIProviders_260506_001.list
     interval: 86400
 
   PTSites:

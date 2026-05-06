@@ -1,0 +1,21 @@
+# NAME: IntlMedia_Priority
+# PURPOSE: Overseas-media domains that must be matched before broad ChinaMedia/ChinaDomain direct rules.
+
+# iQIYI international
+DOMAIN-SUFFIX,iq.com
+DOMAIN-SUFFIX,intl.iqiyi.com
+DOMAIN-SUFFIX,inter.iqiyi.com
+
+# Bilibili international / HMT
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biliintl.com
+
+# Apple TV / Apple media
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+
+# WeTV international
+DOMAIN-SUFFIX,wetv.vip
+DOMAIN-SUFFIX,wetvinfo.com
