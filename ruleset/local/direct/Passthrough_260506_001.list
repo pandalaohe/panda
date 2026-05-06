@@ -1,0 +1,90 @@
+# NAME: Passthrough
+# PURPOSE: High-priority real/direct pass-through rules for domestic services, private services, tunnels, and safety allowlist.
+# SOURCE: Migrated from Self/ruleset/UnBan.list plus local Cloudflare/remote-control additions.
+
+# Existing personal allowlist
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,citizenwiki.cn
+DOMAIN-KEYWORD,m-team
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,open.cd
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,ptchdbits.co
+DOMAIN-SUFFIX,totheglory.im
+DOMAIN-SUFFIX,yojywp.xyz
+DOMAIN-KEYWORD,amysecure
+DOMAIN-SUFFIX,amytele.net
+DOMAIN-KEYWORD,taobao
+DOMAIN-SUFFIX,simba.taobao.com
+DOMAIN-SUFFIX,g.click.taobao.com
+DOMAIN-SUFFIX,pindao.huoban.taobao.com
+DOMAIN-SUFFIX,wangwang.taobao.com
+DOMAIN-SUFFIX,aliimg.com
+DOMAIN-SUFFIX,openclaudecode.cn
+DOMAIN-SUFFIX,b886.top
+DOMAIN-SUFFIX,sssaicode.com
+DOMAIN-SUFFIX,packyapi.com
+DOMAIN-SUFFIX,clawto.link
+DOMAIN,code.b886.top
+DOMAIN,www.openclaudecode.cn
+DOMAIN,codex1.sssaicode.com
+DOMAIN,codex2.sssaicode.com
+DOMAIN,node-hk.sssaicode.com
+DOMAIN,anti.sssaicode.com
+DOMAIN,claude2.sssaicode.com
+DOMAIN,www.packyapi.com
+DOMAIN,api-slb.packyapi.com
+DOMAIN,api.clawto.link
+DOMAIN-SUFFIX,b888.top
+IP-CIDR,139.199.85.25/32,no-resolve
+
+# Home / private domains
+DOMAIN-SUFFIX,pandahe.com
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,localdomain
+DOMAIN-SUFFIX,home.arpa
+DOMAIN,localhost
+
+# Cloudflare Tunnel / WARP / Zero Trust control plane
+DOMAIN-SUFFIX,argotunnel.com
+DOMAIN-SUFFIX,cfargotunnel.com
+DOMAIN,region1.v2.argotunnel.com
+DOMAIN,region2.v2.argotunnel.com
+DOMAIN,cfd-features.argotunnel.com
+DOMAIN-SUFFIX,cloudflareclient.com
+DOMAIN,engage.cloudflareclient.com
+
+# Remote-control / tunnel / DDNS control plane
+DOMAIN-SUFFIX,oray.com
+DOMAIN-SUFFIX,oray.net
+DOMAIN-SUFFIX,sunlogin.net
+DOMAIN-SUFFIX,todesk.com
+DOMAIN-SUFFIX,rustdesk.com
+DOMAIN-SUFFIX,zerotier.com
+DOMAIN-SUFFIX,zerotierone.com
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,ts.net
+DOMAIN-SUFFIX,ngrok.com
+DOMAIN-SUFFIX,natapp.cn
+DOMAIN-SUFFIX,frp.freefrp.net
+DOMAIN-SUFFIX,vicp.net
+DOMAIN-SUFFIX,nblink.cc
+DOMAIN-SUFFIX,iepose.com
+DOMAIN-SUFFIX,iepose.cn
+
+# Connectivity checks
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+DOMAIN,connectivitycheck.gstatic.com
+DOMAIN,connectivitycheck.android.com
+DOMAIN,captive.apple.com
+DOMAIN,www.apple.com
+DOMAIN,www.gstatic.com
+
+# Time sync / simple UDP services
+DOMAIN-SUFFIX,ntp.org
+DOMAIN-SUFFIX,ntp.org.cn
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN-KEYWORD,ntp
+DOMAIN-KEYWORD,time

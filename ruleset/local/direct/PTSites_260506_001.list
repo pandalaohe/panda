@@ -1,0 +1,9 @@
+# NAME: PTSites
+# PURPOSE: Real-IP direct routing for private tracker sites.
+
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,open.cd
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,ptchdbits.co
+DOMAIN-SUFFIX,totheglory.im
+DOMAIN-KEYWORD,m-team

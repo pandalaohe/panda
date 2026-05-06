@@ -214,8 +214,8 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/PTSites.list"
-    path: ./ruleset/local/direct/PTSites.list
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/PTSites_260506_001.list"
+    path: ./ruleset/local/direct/PTSites_260506_001.list
     interval: 86400
 
   FakeIP_Filter_Wide:
