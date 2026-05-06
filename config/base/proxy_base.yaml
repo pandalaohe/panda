@@ -72,6 +72,9 @@ dns:
     "+.chdbits.co":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+    "+.ptchdbits.co":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
     "+.totheglory.im":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
