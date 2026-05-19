@@ -86,6 +86,4 @@ DOMAIN,www.gstatic.com
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,ntp.org.cn
 DOMAIN-SUFFIX,pool.ntp.org
-DOMAIN-KEYWORD,ntp
-DOMAIN-KEYWORD,time
 
