@@ -1,0 +1,24 @@
+# NAME: MicrosoftBing
+# PURPOSE: High-priority Microsoft/Bing overseas routing before broad China direct rules.
+
+DOMAIN-SUFFIX,bing.cn
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.com.bo
+DOMAIN-SUFFIX,bing.com.co
+DOMAIN-SUFFIX,bing.com.cy
+DOMAIN-SUFFIX,bing.com.gt
+DOMAIN-SUFFIX,bing.jp
+DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bing123.com
+DOMAIN-SUFFIX,bing135.com
+DOMAIN-SUFFIX,bing4.com
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,bingforbusiness.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.cn
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,msxiaobing.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,outlookmobile.com
