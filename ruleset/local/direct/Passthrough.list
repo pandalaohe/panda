@@ -87,3 +87,6 @@ DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,ntp.org.cn
 DOMAIN-SUFFIX,pool.ntp.org
 
+# Others
+DOMAIN-SUFFIX,mobilevc.top
+
