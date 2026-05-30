@@ -1,4 +1,4 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
@@ -216,16 +216,16 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/APIProviders_260506_001.list"
-    path: ./ruleset/local/direct/APIProviders_260506_001.list
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/APIProviders.list"
+    path: ./ruleset/local/direct/APIProviders.list
     interval: 86400
 
   PTSites:
     type: http
     behavior: classical
     format: text
-    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/PTSites_260524_001.list"
-    path: ./ruleset/local/direct/PTSites_260524_001.list
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/PTSites.list"
+    path: ./ruleset/local/direct/PTSites.list
     interval: 86400
 
   FakeIP_Filter_Wide:

@@ -1,8 +1,9 @@
 # NAME: ChinaIPCore
 # PURPOSE: Merged China IP and China company IP direct rules.
 # SOURCE: exact URL merge on 2026-05-06.
-
 # Source: ACL4SSR ChinaIp
+# Source: ACL4SSR ChinaCompanyIp
+
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.8.0/21,no-resolve
@@ -7459,8 +7460,6 @@ IP-CIDR,223.252.192.0/19,no-resolve
 IP-CIDR,223.255.0.0/17,no-resolve
 IP-CIDR,223.255.236.0/22,no-resolve
 IP-CIDR,223.255.252.0/23,no-resolve
-
-# Source: ACL4SSR ChinaCompanyIp
 IP-CIDR,8.128.0.0/10,no-resolve
 IP-CIDR,8.209.32.0/22,no-resolve
 IP-CIDR,8.209.40.0/21,no-resolve

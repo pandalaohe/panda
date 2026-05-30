@@ -1,4 +1,13 @@
-﻿# Tencent Video / 云视听极光
+# Tencent Video / 云视听极光
+# iQIYI / 爱奇艺 mainland
+# Youku / 优酷 mainland
+# MangoTV / 芒果 TV mainland
+# Sohu / LeTV / PPTV mainland
+# CCTV / Yangshipin / Migu mainland
+# Bilibili mainland
+# Tencent domestic support without overseas WeTV catch-all
+# Domestic streaming additions
+
 DOMAIN-SUFFIX,v.qq.com
 DOMAIN-SUFFIX,video.qq.com
 DOMAIN-SUFFIX,qqlive.com
@@ -11,8 +20,6 @@ DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,tencent-cloud.net
-
-# iQIYI / 爱奇艺 mainland
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,qiyi.com
@@ -21,19 +28,13 @@ DOMAIN-SUFFIX,ppsimg.com
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71edge.com
 DOMAIN-SUFFIX,qy.net
-
-# Youku / 优酷 mainland
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,tudou.com
-
-# MangoTV / 芒果 TV mainland
 DOMAIN-SUFFIX,mgtv.com
 DOMAIN-SUFFIX,hunantv.com
 DOMAIN-SUFFIX,imgo.tv
-
-# Sohu / LeTV / PPTV mainland
 DOMAIN-SUFFIX,tv.sohu.com
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,itc.cn
@@ -43,8 +44,6 @@ DOMAIN-SUFFIX,letvcdn.com
 DOMAIN-SUFFIX,api.mob.app.letv.com
 DOMAIN-SUFFIX,pptv.com
 DOMAIN-SUFFIX,pplive.com
-
-# CCTV / Yangshipin / Migu mainland
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cntv.cn
 DOMAIN-SUFFIX,cctvpic.com
@@ -52,8 +51,6 @@ DOMAIN-SUFFIX,ysp.cctv.cn
 DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,cmvideo.cn
-
-# Bilibili mainland
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
@@ -64,18 +61,37 @@ DOMAIN-SUFFIX,bilicdn4.com
 DOMAIN-SUFFIX,bilicdn5.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acgvideo.com
-
-# Tencent domestic support without overseas WeTV catch-all
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,wechat.com
-
-# Domestic streaming additions
 DOMAIN-SUFFIX,1905.com
 DOMAIN-SUFFIX,fun.tv
 DOMAIN-SUFFIX,kankan.com
 DOMAIN-SUFFIX,baofeng.com
 DOMAIN-SUFFIX,wasu.cn
 DOMAIN-SUFFIX,bokecc.com
-
-
+DOMAIN,intel-cache.m.iqiyi.com
+DOMAIN,intel-cache.video.iqiyi.com
+DOMAIN,intl-rcd.iqiyi.com
+DOMAIN,intl-subscription.iqiyi.com
+DOMAIN-SUFFIX,inter.ptqy.gitv.tv
+IP-CIDR,23.40.241.251/32,no-resolve
+IP-CIDR,23.40.242.10/32,no-resolve
+IP-CIDR,103.44.56.0/22,no-resolve
+IP-CIDR,118.26.32.0/23,no-resolve
+IP-CIDR,118.26.120.0/24,no-resolve
+IP-CIDR,223.119.62.225/28,no-resolve
+IP-CIDR,106.11.0.0/16,no-resolve
+DOMAIN,apiintl.biliapi.net
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,bigfun.cn
+DOMAIN-SUFFIX,bigfunapp.cn
+DOMAIN-SUFFIX,bilibili.co
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,biliintl.co
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,im9.com

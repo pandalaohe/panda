@@ -1,9 +1,0 @@
-﻿# NAME: SteamDownload
-# PURPOSE: Steam game/content download direct CDN rules.
-DOMAIN,steampipe.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN-SUFFIX,steamusercontent.com
-

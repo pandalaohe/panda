@@ -1,8 +1,12 @@
 # NAME: DirectCore
 # PURPOSE: Merged small direct core rules for LAN, unban, downloads, GoogleCN, and SteamCN.
 # SOURCE: exact URL merge on 2026-05-06.
-
 # Source: ACL4SSR LocalAreaNetwork
+# Source: ACL4SSR UnBan
+# Source: ACL4SSR Download
+# Source: ACL4SSR GoogleCN
+# Source: ACL4SSR SteamCN
+
 DOMAIN-SUFFIX,acl4.ssr
 DOMAIN-SUFFIX,ip6-localhost
 DOMAIN-SUFFIX,ip6-loopback
@@ -40,8 +44,6 @@ DOMAIN-SUFFIX,tendawifi.com
 DOMAIN-SUFFIX,zte.home
 DOMAIN-SUFFIX,tplogin.cn
 DOMAIN-SUFFIX,wifi.cmcc
-
-# Source: ACL4SSR UnBan
 DOMAIN-SUFFIX,ol.epicgames.com
 DOMAIN-SUFFIX,dizhensubao.getui.com
 DOMAIN,dl.google.com
@@ -73,8 +75,6 @@ DOMAIN-SUFFIX,DSmyNAS.org
 DOMAIN-SUFFIX,FamilyDS.com
 DOMAIN-SUFFIX,FamilyDS.net
 DOMAIN-SUFFIX,FamilyDS.org
-
-# Source: ACL4SSR Download
 PROCESS-NAME,aria2c.exe
 PROCESS-NAME,fdm.exe
 PROCESS-NAME,Folx.exe
@@ -90,8 +90,6 @@ DOMAIN-KEYWORD,aria2
 PROCESS-NAME,DownloadService.exe
 PROCESS-NAME,Weiyun.exe
 PROCESS-NAME,baidunetdisk.exe
-
-# Source: ACL4SSR GoogleCN
 DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,alt1-mtalk.google.com
@@ -121,8 +119,6 @@ DOMAIN-SUFFIX,toolbarqueries.google.com
 DOMAIN-SUFFIX,tools.google.com
 DOMAIN-SUFFIX,tools.l.google.com
 DOMAIN-SUFFIX,www-googletagmanager.l.google.com
-
-# Source: ACL4SSR SteamCN
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com

@@ -1,8 +1,11 @@
 # NAME: AdBlock_Core
 # PURPOSE: Merged high-confidence ad/hijacking/program-ad rules.
 # SOURCE: exact URL merge on 2026-05-06.
-
 # Source: Panda AdBlock_High
+# Source: ACL4SSR BanAD
+# Source: blackmatrix7 Hijacking
+# Source: ACL4SSR BanProgramAD
+
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlesyndication.com
@@ -21,8 +24,6 @@ DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,advertising
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,adserver
-
-# Source: ACL4SSR BanAD
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -607,8 +608,6 @@ DOMAIN-SUFFIX,114so.cn
 DOMAIN-SUFFIX,go.10086.cn
 DOMAIN-SUFFIX,hivedata.cc
 DOMAIN-SUFFIX,navi.gd.chinamobile.com
-
-# Source: blackmatrix7 Hijacking
 DOMAIN,geo2.adobe.com
 DOMAIN-SUFFIX,17gouwuba.com
 DOMAIN-SUFFIX,186078.com
@@ -835,8 +834,6 @@ IP-CIDR,61.160.200.223/32,no-resolve
 IP-CIDR,61.160.200.242/32,no-resolve
 IP-CIDR,61.160.200.252/32,no-resolve
 IP-CIDR,61.174.50.214/32,no-resolve
-
-# Source: ACL4SSR BanProgramAD
 DOMAIN-SUFFIX,a.youdao.com
 DOMAIN-SUFFIX,adgeo.corp.163.com
 DOMAIN-SUFFIX,analytics.126.net

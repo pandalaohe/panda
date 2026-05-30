@@ -1,11 +1,11 @@
-﻿# NAME: AdBlock_Allow
+# NAME: AdBlock_Allow
 # PURPOSE: Ad-block false-positive protection. Place before REJECT rules.
+
 DOMAIN-SUFFIX,pandahe.com
 DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,cloudflareclient.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,qiyi.com
 DOMAIN-SUFFIX,youku.com
@@ -26,4 +26,5 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,msftconnecttest.com
-
+DOMAIN,captive.apple.com
+DOMAIN,www.apple.com

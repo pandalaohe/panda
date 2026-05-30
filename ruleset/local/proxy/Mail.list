@@ -1,10 +1,11 @@
-﻿# NAME: Mail
+# NAME: Mail
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-02-15 23:45:31
 # DOMAIN: 7
 # DOMAIN-SUFFIX: 2
 # TOTAL: 9
+
 DOMAIN,imap-mail.outlook.com
 DOMAIN,imap.gmail.com
 DOMAIN,outlook.office365.com
@@ -14,3 +15,45 @@ DOMAIN,smtp.gmail.com
 DOMAIN,smtp.office365.com
 DOMAIN-SUFFIX,apple.imap.mail.yahoo.com
 DOMAIN-SUFFIX,m.hotmail.com
+DST-PORT,25
+DST-PORT,109
+DST-PORT,110
+DST-PORT,143
+DST-PORT,465
+DST-PORT,587
+DST-PORT,995
+DST-PORT,993
+DST-PORT,994
+DOMAIN,gmail.com
+DOMAIN,www.gmail.com
+DOMAIN,mail.google.com
+DOMAIN,inbox.google.com
+DOMAIN,accounts.google.com
+DOMAIN,ogs.google.com
+DOMAIN,people-pa.clients6.google.com
+DOMAIN,contacts.google.com
+DOMAIN,calendar.google.com
+DOMAIN,tasks.google.com
+DOMAIN,clients6.google.com
+DOMAIN,clients4.google.com
+DOMAIN,gmail.googleapis.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,mail-attachment.googleusercontent.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,mail.google.com
+DOMAIN-SUFFIX,mail-attachment.googleusercontent.com
+DOMAIN-SUFFIX,outlook.office365.com
+DOMAIN-SUFFIX,protection.outlook.com
+DOMAIN-SUFFIX,mail.protection.outlook.com
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yahoomail.com
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,protonmail.com
+DOMAIN-SUFFIX,fastmail.com
+DOMAIN-SUFFIX,zoho.com
+DOMAIN-SUFFIX,zohomail.com
+DOMAIN-SUFFIX,mail.zoho.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com

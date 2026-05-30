@@ -1,5 +1,6 @@
-﻿# NAME: AdBlock_High
+# NAME: AdBlock_High
 # PURPOSE: High-confidence local ad/tracking rules. External high-confidence sources are also referenced in config.
+
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlesyndication.com
@@ -24,4 +25,8 @@ DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,adserver
 DOMAIN-KEYWORD,adsdk
 DOMAIN-KEYWORD,analytics
-
+DOMAIN-SUFFIX,facebook-ads.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-KEYWORD,tracking
+DOMAIN-KEYWORD,advertising
+DOMAIN-KEYWORD,adservice

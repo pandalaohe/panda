@@ -1,8 +1,11 @@
 # NAME: ChinaMail
 # PURPOSE: Domestic mail domains that should stay DIRECT.
 # SOURCE: local curated list on 2026-05-06.
-
 # Tencent / QQ Mail
+# NetEase Mail
+# Alibaba / Aliyun Mail
+# Sina / Sohu / 189 / 139 / 21CN Mail
+
 DOMAIN-SUFFIX,qqmail.com
 DOMAIN-SUFFIX,foxmail.com
 DOMAIN-SUFFIX,exmail.qq.com
@@ -10,8 +13,6 @@ DOMAIN-SUFFIX,mail.qq.com
 DOMAIN-SUFFIX,imap.qq.com
 DOMAIN-SUFFIX,pop.qq.com
 DOMAIN-SUFFIX,smtp.qq.com
-
-# NetEase Mail
 DOMAIN-SUFFIX,mail.163.com
 DOMAIN-SUFFIX,mail.126.com
 DOMAIN-SUFFIX,mail.yeah.net
@@ -27,16 +28,12 @@ DOMAIN-SUFFIX,smtp.126.com
 DOMAIN-SUFFIX,imap.yeah.net
 DOMAIN-SUFFIX,pop.yeah.net
 DOMAIN-SUFFIX,smtp.yeah.net
-
-# Alibaba / Aliyun Mail
 DOMAIN-SUFFIX,mail.aliyun.com
 DOMAIN-SUFFIX,qiye.aliyun.com
 DOMAIN-SUFFIX,alimail.aliyun.com
 DOMAIN-SUFFIX,imap.aliyun.com
 DOMAIN-SUFFIX,pop.aliyun.com
 DOMAIN-SUFFIX,smtp.aliyun.com
-
-# Sina / Sohu / 189 / 139 / 21CN Mail
 DOMAIN-SUFFIX,mail.sina.com
 DOMAIN-SUFFIX,mail.sina.cn
 DOMAIN-SUFFIX,vip.sina.com

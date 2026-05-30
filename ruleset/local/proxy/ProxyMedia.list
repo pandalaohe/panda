@@ -1,30 +1,68 @@
-﻿# Localized from ACL4SSR/ACL4SSR Clash/ProxyMedia.list
+# Localized from ACL4SSR/ACL4SSR Clash/ProxyMedia.list
 # 内容：国外媒体列表
 # 更新：2025-12-06 10:28:17
 # 数量：414条
-
 # ABC
+# AI
+# AbemaTV
+# All4
+# Amazon
+# AppleNews
+# AppleTV
+# BBCiPlayer
+# Bahamut
+# DAZN
+# Deezer
+# DiscoveryPlus
+# DisneyPlus
+# EncoreTVB
+# FoxNow
+# HBO
+# HBO_GO_HKG
+# HWTV
+# Hulu
+# HuluJapan
+# ITV
+# Iwara
+# JOOX
+# Japonx
+# KKBOX
+# KKTV
+# LiTV
+# LineTV
+# My5
+# MyTVSuper
+# Netflix
+# Niconico
+# NivodTV
+# Olevod
+# PBS
+# Pandora
+# Pornhub
+# Qobuz
+# SoundCloud
+# Spotify
+# TIDAL
+# TaiWanGood 台湾好
+# TikTok
+# Twitch
+# ViuTV
+# YouTube
+# YouTubeMusic
+
 DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,go.com
-
-# AI
 DOMAIN,ai.google.dev
 DOMAIN,api.together.xyz
 DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,ai.azure.com
-
-# AbemaTV
 DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
-
-# All4
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
-
-# Amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
@@ -48,16 +86,10 @@ DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,seattlespheres.com
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
-
-# AppleNews
 DOMAIN,gspe1-ssl.ls.apple.com
-
-# AppleTV
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN-SUFFIX,tv.apple.com
-
-# BBCiPlayer
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 DOMAIN,aod-dash-uk-live.akamaized.net
@@ -72,15 +104,11 @@ DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
 DOMAIN-SUFFIX,bbci.co
 DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,bidi.net.uk
-
-# Bahamut
 DOMAIN,bahamut.akamaized.net
 DOMAIN,gamer-cds.cdn.hinet.net
 DOMAIN,gamer2-cds.cdn.hinet.net
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
-
-# DAZN
 DOMAIN-KEYWORD,voddazn
 DOMAIN,d151l6v8er5bdm.cloudfront.net
 DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net
@@ -92,17 +120,11 @@ DOMAIN-SUFFIX,dcblivedazn.akamaized.net
 DOMAIN-SUFFIX,indazn.com
 DOMAIN-SUFFIX,indaznlab.com
 DOMAIN-SUFFIX,sentry.io
-
-# Deezer
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
-
-# DiscoveryPlus
 DOMAIN-SUFFIX,disco-api.com
 DOMAIN-SUFFIX,discovery.com
 DOMAIN-SUFFIX,uplynk.com
-
-# DisneyPlus
 DOMAIN,cdn.registerdisney.go.com
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,bam.nr-data.net
@@ -123,27 +145,18 @@ DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,js-agent.newrelic.com
-
-# EncoreTVB
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,content.jwplatform.com
 DOMAIN,edge.api.brightcove.com
 DOMAIN,videos-f.jwpsrv.com
 DOMAIN-SUFFIX,encoretvb.com
-
-# FoxNow
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
-DOMAIN-SUFFIX,uplynk.com
-
-# HBO
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
 DOMAIN-SUFFIX,hbonow.com
-
-# HBO_GO_HKG
 DOMAIN-KEYWORD,hbogoasia
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
@@ -163,12 +176,8 @@ DOMAIN,s3-ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
-
-# HWTV
 DOMAIN-SUFFIX,5itv.tv
 DOMAIN-SUFFIX,ocnttv.com
-
-# Hulu
 DOMAIN-SUFFIX,cws-hulu.conviva.com
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,hulu.hb.omtrdc.net
@@ -176,28 +185,18 @@ DOMAIN-SUFFIX,hulu.sc.omtrdc.net
 DOMAIN-SUFFIX,huluad.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
-
-# HuluJapan
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hjholdings.jp
 DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,prod.hjholdings.tv
 DOMAIN-SUFFIX,streaks.jp
 DOMAIN-SUFFIX,yb.uncn.jp
-
-# ITV
 DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
-
-# Iwara
 DOMAIN-SUFFIX,iwara.tv
-
-# JOOX
 DOMAIN-KEYWORD,jooxweb-api
 DOMAIN-SUFFIX,joox.com
-
-# Japonx
 DOMAIN-KEYWORD,japonx
 DOMAIN-KEYWORD,japronx
 DOMAIN-SUFFIX,japonx.com
@@ -208,42 +207,28 @@ DOMAIN-SUFFIX,japronx.com
 DOMAIN-SUFFIX,japronx.net
 DOMAIN-SUFFIX,japronx.tv
 DOMAIN-SUFFIX,japronx.vip
-
-# KKBOX
 DOMAIN-SUFFIX,kfs.io
 DOMAIN-SUFFIX,kkbox.com
 DOMAIN-SUFFIX,kkbox.com.tw
-
-# KKTV
 DOMAIN,kktv-theater.kk.stream
 DOMAIN,theater-kktv.cdn.hinet.net
 DOMAIN-SUFFIX,kktv.com.tw
 DOMAIN-SUFFIX,kktv.me
-
-# LiTV
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN-SUFFIX,litv.tv
-
-# LineTV
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,profile.line-scdn.net
-
-# My5
 DOMAIN,d349g9zuie06uo.cloudfront.net
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,my5.tv
-
-# MyTVSuper
 DOMAIN-KEYWORD,nowtv100
 DOMAIN-KEYWORD,rthklive
 DOMAIN,mytvsuperlimited.hb.omtrdc.net
 DOMAIN,mytvsuperlimited.sc.omtrdc.net
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
-
-# Netflix
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,netflixdnstest
@@ -284,13 +269,9 @@ IP-CIDR,198.45.48.0/20,no-resolve
 IP-CIDR,203.75.84.0/24,no-resolve
 IP-CIDR,207.45.72.0/22,no-resolve
 IP-CIDR,208.75.76.0/22,no-resolve
-
-# Niconico
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
-
-# NivodTV
 DOMAIN-KEYWORD,nivod
 DOMAIN-SUFFIX,biggggg.com
 DOMAIN-SUFFIX,mudvod.tv
@@ -302,8 +283,6 @@ DOMAIN-SUFFIX,nivod.tv
 DOMAIN-SUFFIX,nivodi.tv
 DOMAIN-SUFFIX,nivodz.com
 DOMAIN-SUFFIX,vod360.net
-
-# Olevod
 DOMAIN-KEYWORD,olevod
 DOMAIN-SUFFIX,haiwaikan.com
 DOMAIN-SUFFIX,iole.tv
@@ -313,31 +292,17 @@ DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,olevod.io
 DOMAIN-SUFFIX,olevod.tv
 DOMAIN-SUFFIX,olevodtv.com
-
 DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,sentry.io
-
-# PBS
 DOMAIN-SUFFIX,pbs.org
-
-# Pandora
 DOMAIN-SUFFIX,pandora.com
-
-# Pornhub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
-
-# Qobuz
 DOMAIN-SUFFIX,qobuz.com
-
-# SoundCloud
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.com
-
-# Spotify
 DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-SUFFIX,pscdn.co
@@ -346,17 +311,11 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,spotifycdn.net
-
-# TIDAL
 DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
 DOMAIN-SUFFIX,tidal.com
 DOMAIN-SUFFIX,tidalhifi.com
-
-# TaiWanGood 台湾好
 DOMAIN,hamifans.emome.net
 DOMAIN-SUFFIX,skyking.com.tw
-
-# TikTok
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
@@ -367,8 +326,6 @@ DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
-
-# Twitch
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
@@ -376,8 +333,6 @@ DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,twitch-ext.rootonline.de
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
-
-# ViuTV
 PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
@@ -393,8 +348,6 @@ DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
-
-# YouTube
 DOMAIN-KEYWORD,youtube
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
@@ -409,7 +362,171 @@ DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-
-# YouTubeMusic
 DOMAIN,music.youtube.com
-
+DOMAIN,wetv.qq.com
+DOMAIN-SUFFIX,iflix-images.akamaized.net
+DOMAIN-SUFFIX,iflix.com
+DOMAIN-SUFFIX,v.smtcdns.com
+DOMAIN-SUFFIX,v.smtcdns.net
+DOMAIN-SUFFIX,vv.video.qq.com
+DOMAIN-SUFFIX,wetv.vip
+DOMAIN-SUFFIX,wetvinfo.com
+IP-CIDR,150.109.28.51/32,no-resolve
+PROCESS-NAME,com.tencent.qqlivei18n
+PROCESS-NAME,com.tencent.qqlivei18n.us
+DOMAIN,cache.video.iqiyi.com
+DOMAIN-SUFFIX,intl-rcd.iqiyi.com
+DOMAIN-SUFFIX,intl-subscription.iqiyi.com
+IP-CIDR,104.85.165.17/32,no-resolve
+IP-CIDR,110.238.107.47/32,no-resolve
+IP-CIDR,118.26.32.162/32,no-resolve
+IP-CIDR,159.138.102.146/32,no-resolve
+IP-CIDR,184.51.102.0/24,no-resolve
+IP-CIDR,203.80.97.203/32,no-resolve
+IP-CIDR,210.71.227.202/32,no-resolve
+IP-CIDR,23.200.145.146/32,no-resolve
+IP-CIDR,23.210.215.186/32,no-resolve
+IP-CIDR,23.211.15.0/24,no-resolve
+IP-CIDR,23.219.172.0/24,no-resolve
+IP-CIDR,23.40.242.10/32,no-resolve
+IP-CIDR,23.59.252.0/24,no-resolve
+PROCESS-NAME,com.iqiyi.i18n
+PROCESS-NAME,com.iqiyi.i18n.tv
+DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
+DOMAIN-SUFFIX,kk.stream
+DOMAIN-SUFFIX,spotify.design
+DOMAIN-SUFFIX,hayabusa.media
+DOMAIN-SUFFIX,primevideo.info
+DOMAIN-SUFFIX,primevideo.org
+DOMAIN-SUFFIX,nflxsearch.net
+DOMAIN,d1sgwhnao7452x.cloudfront.net
+DOMAIN,d184dfn36gombl.cloudfront.net
+DOMAIN-SUFFIX,twitchsvc.net
+DOMAIN-SUFFIX,netflix.com.edgesuite.net
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
+DOMAIN,ds-linear-abematv.akamaized.net
+DOMAIN,staticasiafox.akamaized.net
+DOMAIN-SUFFIX,spotify-com.akamaized.net
+DOMAIN-SUFFIX,dcalivedazn.akamaized.net
+DOMAIN,dashasiafox.akamaized.net
+DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+DOMAIN,manifest.prod.boltdns.net
+DOMAIN,apm-misaka.biliapi.net
+DOMAIN-SUFFIX,fanfox.net
+DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net
+DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
+DOMAIN-SUFFIX,hayabusa.dev
+DOMAIN-SUFFIX,spotify-everywhere.com
+DOMAIN-SUFFIX,amazonprimevideos.com
+DOMAIN-SUFFIX,spotifyforbrands.com
+DOMAIN-SUFFIX,spotifycharts.com
+DOMAIN-SUFFIX,smartmediarep.com
+DOMAIN-SUFFIX,paramountplus.com
+DOMAIN-SUFFIX,dmm-extension.com
+DOMAIN-SUFFIX,discoveryplus.com
+DOMAIN-SUFFIX,spotifycodes.com
+DOMAIN-SUFFIX,theplatform.com
+DOMAIN-SUFFIX,spotifyjobs.com
+DOMAIN-SUFFIX,prime-video.com
+DOMAIN-SUFFIX,kkbox-prime.com
+DOMAIN-SUFFIX,amebaowndme.com
+DOMAIN-SUFFIX,spotilocal.com
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN,youtube.googleapis.com
+DOMAIN-SUFFIX,cbsaavideo.com
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,tospotify.com
+DOMAIN-SUFFIX,peacocktv.com
+DOMAIN-SUFFIX,cbsivideo.com
+DOMAIN-SUFFIX,byspotify.com
+DOMAIN-SUFFIX,amebaownd.com
+DOMAIN-SUFFIX,showtime.com
+DOMAIN,bbc.mp-pxcdn.com
+DOMAIN-SUFFIX,himalaya.com
+DOMAIN,athome.fandango.com
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,abema-tv.com
+DOMAIN-SUFFIX,viblast.com
+DOMAIN-SUFFIX,tiktokw.com
+DOMAIN,cbsplaylistserver.aws.syncbak.com
+DOMAIN,cbsservice.aws.syncbak.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,foxplus.com
+DOMAIN,prod-api.crackle.com
+DOMAIN-SUFFIX,amebame.com
+DOMAIN,tubitv.com
+DOMAIN,www.tubitv.com
+DOMAIN,cbsi.live.ott.irdeto.com
+DOMAIN-SUFFIX,fls-na.amazon.com
+DOMAIN-SUFFIX,atv-ps.amazon.com
+DOMAIN-SUFFIX,socdm.com
+DOMAIN-SUFFIX,tv.naver.com
+DOMAIN-SUFFIX,kktix.com
+DOMAIN-SUFFIX,dnitv.com
+DOMAIN,ocvideo.apple.com
+DOMAIN,uts-api.itunes.apple.com
+DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,hls.itunes.apple.com
+DOMAIN,linear.tv.apple.com
+DOMAIN,vudu.com
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,sho.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktok.us
+DOMAIN-SUFFIX,hulu.us
+DOMAIN-SUFFIX,discoveryplus.co.uk
+DOMAIN-SUFFIX,tvlicensing.co.uk
+DOMAIN-SUFFIX,hbogoasia.tw
+DOMAIN,video.friday.tw
+DOMAIN,ana.video.friday.tw
+DOMAIN-SUFFIX,api.gamer.com.tw
+DOMAIN-SUFFIX,ani.gamer.com.tw
+DOMAIN-SUFFIX,primevideo.tv
+DOMAIN-SUFFIX,pluto.tv
+DOMAIN,tubi.tv
+DOMAIN,www.tubi.tv
+DOMAIN-SUFFIX,hulu.tv
+DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
+DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN-SUFFIX,hbogoasia.sg
+DOMAIN-SUFFIX,hbogoasia.ph
+DOMAIN-SUFFIX,mangafox.me
+DOMAIN-SUFFIX,spotifynewsroom.jp
+DOMAIN-SUFFIX,dokusho-ojikan.jp
+DOMAIN-SUFFIX,winticket.jp
+DOMAIN-SUFFIX,ameblo.jp
+DOMAIN-SUFFIX,tver.jp
+DOMAIN-SUFFIX,location-plus.nhk.jp
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,production-public.tubi.io
+DOMAIN-SUFFIX,discoveryplus.in
+DOMAIN-SUFFIX,hbogoasia.id
+DOMAIN-SUFFIX,psg.cdn.hgc.com.hk
+DOMAIN-SUFFIX,overcast.fm
+DOMAIN-SUFFIX,amazonvideodirect.cc
+DOMAIN-SUFFIX,amazonvideo.cc
+DOMAIN-SUFFIX,primevideo.cc
+DOMAIN-SUFFIX,netflix.ca
+DOMAIN-KEYWORD,dualstack.ichnaea-web-
+DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-KEYWORD,tvbanywhere
+PROCESS-NAME,com.amazon.avod.thirdpartyclient
+PROCESS-NAME,tv
+PROCESS-NAME,music
+PROCESS-NAME,com.bstar.intl
+PROCESS-NAME,com.hulu.plus
+PROCESS-NAME,com.tencent.ibg.joox
+PROCESS-NAME,com.linecorp.linetv
+PROCESS-NAME,com.netflix.mediaclient
+PROCESS-NAME,com.twgood.android
+PROCESS-NAME,tv.twitch.android.app
+PROCESS-NAME,com.hktve.viutv
+DOMAIN,ntdfreepc-tgc.cdn.hinet.net
+DOMAIN,cdi.ofiii.com
+DOMAIN,www.litv.tv

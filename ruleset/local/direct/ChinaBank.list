@@ -1,14 +1,13 @@
 # NAME: ChinaBank
 # PURPOSE: High-priority direct rules for mainland China banking and payment sites.
-
 # China Construction Bank / CCB
+# Major mainland China banks
+
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-SUFFIX,ccb.cn
 DOMAIN-SUFFIX,ccb.com.cn
 DOMAIN-SUFFIX,ccbchina.com
 DOMAIN-SUFFIX,ccbank.com.cn
-
-# Major mainland China banks
 DOMAIN-SUFFIX,icbc.com.cn
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,boc.cn
