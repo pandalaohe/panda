@@ -28,16 +28,7 @@ DOMAIN,gmail.com
 DOMAIN,www.gmail.com
 DOMAIN,mail.google.com
 DOMAIN,inbox.google.com
-DOMAIN,accounts.google.com
-DOMAIN,ogs.google.com
-DOMAIN,people-pa.clients6.google.com
-DOMAIN,contacts.google.com
-DOMAIN,calendar.google.com
-DOMAIN,tasks.google.com
-DOMAIN,clients6.google.com
-DOMAIN,clients4.google.com
 DOMAIN,gmail.googleapis.com
-DOMAIN,oauth2.googleapis.com
 DOMAIN,mail-attachment.googleusercontent.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,googlemail.com

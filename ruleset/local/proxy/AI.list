@@ -35,6 +35,8 @@ DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,dify.ai
 
 # Google Gemini / AI Studio / NotebookLM
+DOMAIN,gemini.gstatic.com
+DOMAIN,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
@@ -87,4 +89,3 @@ DOMAIN-SUFFIX,zed.dev
 GEOSITE,jetbrains-ai
 GEOSITE,category-ai-!cn
 GEOSITE,category-ai-chat-!cn
-
