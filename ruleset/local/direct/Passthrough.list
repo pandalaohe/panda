@@ -57,6 +57,19 @@ DOMAIN-SUFFIX,g.click.taobao.com
 DOMAIN-SUFFIX,pindao.huoban.taobao.com
 DOMAIN-SUFFIX,wangwang.taobao.com
 DOMAIN-SUFFIX,aliimg.com
+
+# Domestic app direct patches
+# Cross-checked with blackmatrix7 ios_rule_script, MetaCubeX meta-rules-dat, and Loyalsoldier clash-rules.
+DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,goofish.pro
+DOMAIN-SUFFIX,xianyu.mobi
+DOMAIN-SUFFIX,iflytek.com
+DOMAIN-SUFFIX,xfyun.cn
+DOMAIN-SUFFIX,xfyun.com
+DOMAIN-SUFFIX,iflyrec.com
+DOMAIN-SUFFIX,iflyink.com
+DOMAIN-SUFFIX,iflyos.cn
+
 DOMAIN-SUFFIX,xesimg.com
 DOMAIN-SUFFIX,chuangjing.com
 DOMAIN-SUFFIX,xescnd.com
