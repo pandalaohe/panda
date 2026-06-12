@@ -1,10 +1,11 @@
 ﻿# AdBlock sources
 
-This branch internalizes ad blocking into three local layers:
+This branch internalizes ad blocking into active and source layers:
 
 - `AdBlock_Allow.list`: false-positive protection.
-- `AdBlock_High.list`: high-confidence blocking.
-- `AdBlock_Low.list`: low-confidence catch-all blocking.
+- `AdBlock_Core.list`: active high-confidence domain blocking.
+- `AdBlock_High.list`: source-only curation material already merged into Core.
+- `AdBlock_Low.list`: broad keyword and low-confidence catch-all blocking placed at the end of the routing tree.
 
 Reference sources used as material:
 

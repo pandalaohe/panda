@@ -1,18 +1,37 @@
 ﻿# NAME: AdBlock_Low
 # PURPOSE: Low-confidence/local catch-all ad candidates. Keep after business/media/AI rules.
 DOMAIN-KEYWORD,advert
+DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,adtrack
 DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,adserver
+DOMAIN-KEYWORD,admarvel
+DOMAIN-KEYWORD,admaster
+DOMAIN-KEYWORD,adsage
+DOMAIN-KEYWORD,adsensor
+DOMAIN-KEYWORD,adsmogo
+DOMAIN-KEYWORD,adsrvmedia
+DOMAIN-KEYWORD,adsserving
+DOMAIN-KEYWORD,adsystem
+DOMAIN-KEYWORD,adwords
+DOMAIN-KEYWORD,applovin
+DOMAIN-KEYWORD,appsflyer
+DOMAIN-KEYWORD,domob
+DOMAIN-KEYWORD,duomeng
+DOMAIN-KEYWORD,dwtrack
+DOMAIN-KEYWORD,guanggao
+DOMAIN-KEYWORD,omgmta
+DOMAIN-KEYWORD,omgmtaw
+DOMAIN-KEYWORD,omniture
+DOMAIN-KEYWORD,openx
+DOMAIN-KEYWORD,partnerad
+DOMAIN-KEYWORD,pingfore
+DOMAIN-KEYWORD,socdm
+DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,tracklog
 DOMAIN-KEYWORD,metrics
-DOMAIN-SUFFIX,adform.net
-DOMAIN-SUFFIX,adroll.com
-DOMAIN-SUFFIX,criteo.com
-DOMAIN-SUFFIX,criteo.net
-DOMAIN-SUFFIX,taboola.com
+DOMAIN-KEYWORD,wlmonitor
+DOMAIN-KEYWORD,zjtoolbar
 DOMAIN-SUFFIX,outbrain.com
-DOMAIN-SUFFIX,moatads.com
-DOMAIN-SUFFIX,ads-twitter.com
-DOMAIN-SUFFIX,facebook-ads.com
 

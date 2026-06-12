@@ -3,30 +3,17 @@
 # SOURCE: Migrated from Self/ruleset/UnBan.list plus local Cloudflare/remote-control additions.
 
 # WeChat / PC mini-program bridge
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
-DOMAIN,btrace.qq.com
-DOMAIN,dldir1.qq.com
-DOMAIN,dldir1v6.qq.com
-DOMAIN,soup.v.qq.com
-DOMAIN,vweixinf.tc.qq.com
-DOMAIN,weixin110.qq.com
-DOMAIN,wup.imtt.qq.com
-DOMAIN,cube.weixinbridge.com
-DOMAIN,launchwxacode.wxqcloud.qq.com.cn
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,lbs.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
 DOMAIN-SUFFIX,qlogo.cn
-DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,up-hl.3g.qq.com
 DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
-DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatlegal.net
 DOMAIN-SUFFIX,wechatos.net
 DOMAIN-SUFFIX,wechatpay.com
 DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,weixinsxy.com
 DOMAIN-SUFFIX,wx.gtimg.com
@@ -40,7 +27,6 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,citizenwiki.cn
 DOMAIN-KEYWORD,m-team
-DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,open.cd
 DOMAIN-SUFFIX,chdbits.co
 DOMAIN-SUFFIX,pt.btschool.club
@@ -52,10 +38,6 @@ DOMAIN-SUFFIX,yojywp.xyz
 DOMAIN-KEYWORD,amysecure
 DOMAIN-SUFFIX,amytele.net
 DOMAIN-KEYWORD,taobao
-DOMAIN-SUFFIX,simba.taobao.com
-DOMAIN-SUFFIX,g.click.taobao.com
-DOMAIN-SUFFIX,pindao.huoban.taobao.com
-DOMAIN-SUFFIX,wangwang.taobao.com
 DOMAIN-SUFFIX,aliimg.com
 
 # Domestic app direct patches
@@ -73,27 +55,13 @@ DOMAIN-SUFFIX,iflyos.cn
 DOMAIN-SUFFIX,xesimg.com
 DOMAIN-SUFFIX,chuangjing.com
 DOMAIN-SUFFIX,xescnd.com
-DOMAIN-SUFFIX,openclaudecode.cn
-DOMAIN,www.openclaudecode.cn
 DOMAIN-SUFFIX,b888.top
 IP-CIDR,139.199.85.25/32,no-resolve
-
-# Home / private domains
-DOMAIN-SUFFIX,pandahe.com
-DOMAIN-SUFFIX,lan
-DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,localdomain
-DOMAIN-SUFFIX,home.arpa
-DOMAIN,localhost
 
 # Cloudflare Tunnel / WARP / Zero Trust control plane
 DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,cfargotunnel.com
-DOMAIN,region1.v2.argotunnel.com
-DOMAIN,region2.v2.argotunnel.com
-DOMAIN,cfd-features.argotunnel.com
 DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN,engage.cloudflareclient.com
 
 # Remote-control / tunnel / DDNS control plane
 DOMAIN-SUFFIX,oray.com
@@ -125,7 +93,6 @@ DOMAIN,www.gstatic.com
 # Time sync / simple UDP services
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,ntp.org.cn
-DOMAIN-SUFFIX,pool.ntp.org
 
 # Others
 DOMAIN-SUFFIX,mobilevc.top

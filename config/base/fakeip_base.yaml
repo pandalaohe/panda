@@ -23,8 +23,9 @@ dns:
   fake-ip-range: 198.18.0.0/16
   fake-ip-filter-mode: rule
   fake-ip-filter:
-    - RULE-SET,APIProviders,real-ip
-    - RULE-SET,PTSites,real-ip
+    - RULE-SET,AI,fake-ip
+    - RULE-SET,IntlMedia_Priority,fake-ip
+    - RULE-SET,FakeIP_Direct_RealIP,real-ip
     - RULE-SET,FakeIP_Filter_Wide,real-ip
     - GEOSITE,private,real-ip
     - GEOSITE,cn,real-ip
@@ -60,6 +61,15 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   nameserver-policy:
+    "rule-set:FakeIP_Direct_RealIP":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "rule-set:AI":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
+    "rule-set:IntlMedia_Priority":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
     "geosite:private":
       - system
     "geosite:cn,apple-cn,microsoft@cn,steam@cn,category-games@cn,category-game-platforms-download@cn,category-public-tracker":
@@ -212,20 +222,28 @@ dns:
       - https://dns.alidns.com/dns-query
 
 rule-providers:
-  APIProviders:
+  AI:
     type: http
     behavior: classical
     format: text
-    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/APIProviders.list"
-    path: ./ruleset/local/direct/APIProviders.list
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/proxy/AI.list"
+    path: ./ruleset/local/proxy/AI.list
     interval: 86400
 
-  PTSites:
+  IntlMedia_Priority:
     type: http
     behavior: classical
     format: text
-    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/direct/PTSites.list"
-    path: ./ruleset/local/direct/PTSites.list
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/proxy/IntlMedia_Priority.list"
+    path: ./ruleset/local/proxy/IntlMedia_Priority.list
+    interval: 86400
+
+  FakeIP_Direct_RealIP:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/dns/FakeIP_Direct_RealIP.list"
+    path: ./ruleset/local/dns/FakeIP_Direct_RealIP.list
     interval: 86400
 
   FakeIP_Filter_Wide:

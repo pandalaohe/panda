@@ -15,15 +15,6 @@ DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
 
   # > Claude Telemetry / Widgets
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,statsigapi.net
-DOMAIN,browser-intake-us5-datadoghq.com
-DOMAIN-KEYWORD,datadog
-DOMAIN-KEYWORD,sentry
-DOMAIN-KEYWORD,sift
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN,cdn.usefathom.com
 
   # > Claude Network Fallback
 IP-CIDR,160.79.104.0/21,no-resolve

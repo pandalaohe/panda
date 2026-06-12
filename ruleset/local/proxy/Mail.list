@@ -7,13 +7,8 @@
 # TOTAL: 9
 
 DOMAIN,imap-mail.outlook.com
-DOMAIN,imap.gmail.com
-DOMAIN,outlook.office365.com
-DOMAIN,pop.gmail.com
 DOMAIN,smtp-mail.outlook.com
-DOMAIN,smtp.gmail.com
 DOMAIN,smtp.office365.com
-DOMAIN-SUFFIX,apple.imap.mail.yahoo.com
 DOMAIN-SUFFIX,m.hotmail.com
 DST-PORT,25
 DST-PORT,109
@@ -24,12 +19,8 @@ DST-PORT,587
 DST-PORT,995
 DST-PORT,993
 DST-PORT,994
-DOMAIN,gmail.com
-DOMAIN,www.gmail.com
-DOMAIN,mail.google.com
 DOMAIN,inbox.google.com
 DOMAIN,gmail.googleapis.com
-DOMAIN,mail-attachment.googleusercontent.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,googlemail.com
 DOMAIN-SUFFIX,mail.google.com
@@ -37,7 +28,7 @@ DOMAIN-SUFFIX,mail-attachment.googleusercontent.com
 DOMAIN-SUFFIX,outlook.office365.com
 DOMAIN-SUFFIX,protection.outlook.com
 DOMAIN-SUFFIX,mail.protection.outlook.com
-DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,mail.yahoo.com
 DOMAIN-SUFFIX,yahoomail.com
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.com
@@ -45,6 +36,5 @@ DOMAIN-SUFFIX,fastmail.com
 DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zohomail.com
 DOMAIN-SUFFIX,mail.zoho.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mac.com
+DOMAIN,mail.icloud.com
+DOMAIN-SUFFIX,mail.me.com

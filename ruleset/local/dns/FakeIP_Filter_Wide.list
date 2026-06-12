@@ -1,137 +1,38 @@
 ﻿# NAME: FakeIP_Filter_Wide
 # PURPOSE: Wide real-IP protection list for fakeip.ini. Domains here should receive real DNS answers.
 
-# Private / local / home
-DOMAIN-SUFFIX,lan
-DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,localdomain
-DOMAIN-SUFFIX,home.arpa
-DOMAIN-SUFFIX,pandahe.com
-DOMAIN,localhost
-DOMAIN,router.asus.com
-DOMAIN,instant.arubanetworks.com
-
-# Cloudflare Tunnel / WARP / Zero Trust
-DOMAIN-SUFFIX,argotunnel.com
-DOMAIN-SUFFIX,cfargotunnel.com
-DOMAIN,region1.v2.argotunnel.com
-DOMAIN,region2.v2.argotunnel.com
-DOMAIN,cfd-features.argotunnel.com
-DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN,engage.cloudflareclient.com
-
 # Connectivity checks / captive portal
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msftncsi.com
-DOMAIN,connectivitycheck.gstatic.com
-DOMAIN,connectivitycheck.android.com
-DOMAIN,captive.apple.com
-DOMAIN,www.apple.com
-DOMAIN,www.gstatic.com
 DOMAIN,detectportal.firefox.com
 DOMAIN,network-test.debian.org
 
-# Time sync
-DOMAIN-SUFFIX,ntp.org
-DOMAIN-SUFFIX,ntp.org.cn
-DOMAIN-SUFFIX,pool.ntp.org
-
 # STUN / RTC / simple UDP
 DOMAIN-KEYWORD,stun
-DOMAIN-SUFFIX,stunprotocol.org
-DOMAIN-SUFFIX,stun.twilio.com
 DOMAIN-SUFFIX,turn.twilio.com
 
 # Apple / Microsoft update and push
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN-SUFFIX,delivery.mp.microsoft.com
 DOMAIN-SUFFIX,xboxlive.com
 
 # Game / download CDN
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,epicgames.com
 
-# Domestic media / CDN
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,qqlive.com
-DOMAIN-SUFFIX,gtimg.com
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,qcloud.com
-DOMAIN-SUFFIX,myqcloud.com
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,qiyi.com
-DOMAIN-SUFFIX,qy.net
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,ykimg.com
-DOMAIN-SUFFIX,mgtv.com
-DOMAIN-SUFFIX,hunantv.com
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,cctv.com
-DOMAIN-SUFFIX,cntv.cn
-DOMAIN-SUFFIX,migu.cn
-
 # Banking / payment / ecommerce
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,unionpay.com
-DOMAIN-SUFFIX,95516.com
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,icbc.com.cn
-DOMAIN-SUFFIX,ccb.com
-DOMAIN-SUFFIX,abchina.com
-DOMAIN-SUFFIX,boc.cn
-DOMAIN-SUFFIX,cmbchina.com
-DOMAIN-SUFFIX,bankcomm.com
-DOMAIN-SUFFIX,pingan.com
 DOMAIN-SUFFIX,ocbc.com
 DOMAIN-SUFFIX,chase.com
 DOMAIN-SUFFIX,bankofamerica.com
 
 # Remote-control / tunnel / DDNS
-DOMAIN-SUFFIX,oray.com
-DOMAIN-SUFFIX,oray.net
-DOMAIN-SUFFIX,sunlogin.net
-DOMAIN-SUFFIX,todesk.com
-DOMAIN-SUFFIX,rustdesk.com
 DOMAIN-SUFFIX,teamviewer.com
-DOMAIN-SUFFIX,zerotier.com
-DOMAIN-SUFFIX,zerotierone.com
-DOMAIN-SUFFIX,tailscale.com
-DOMAIN-SUFFIX,ts.net
-DOMAIN-SUFFIX,ngrok.com
-DOMAIN-SUFFIX,natapp.cn
-DOMAIN-SUFFIX,vicp.net
-DOMAIN-SUFFIX,nblink.cc
-
-# Mihomo geosite-style broad real-ip protections
-GEOSITE,private
-GEOSITE,cn
-GEOSITE,apple-cn
-GEOSITE,microsoft@cn
-GEOSITE,steam@cn
-GEOSITE,category-games@cn
-GEOSITE,category-game-platforms-download@cn
-GEOSITE,category-public-tracker
 

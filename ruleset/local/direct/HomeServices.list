@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,lan
 DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,localdomain
 DOMAIN-SUFFIX,home.arpa
-DOMAIN,localhost
 IP-CIDR,10.0.0.0/8,no-resolve
 IP-CIDR,100.64.0.0/10,no-resolve
 IP-CIDR,127.0.0.0/8,no-resolve
