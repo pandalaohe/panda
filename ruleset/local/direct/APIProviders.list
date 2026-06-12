@@ -6,13 +6,5 @@ DOMAIN-SUFFIX,openclaudecode.cn
 DOMAIN-SUFFIX,sssaicode.com
 DOMAIN-SUFFIX,packyapi.com
 DOMAIN-SUFFIX,clawto.link
-DOMAIN,code.b886.top
-DOMAIN,www.openclaudecode.cn
-DOMAIN,codex1.sssaicode.com
-DOMAIN,codex2.sssaicode.com
-DOMAIN,node-hk.sssaicode.com
-DOMAIN,anti.sssaicode.com
-DOMAIN,claude2.sssaicode.com
-DOMAIN,www.packyapi.com
-DOMAIN,api-slb.packyapi.com
-DOMAIN,api.clawto.link
+DOMAIN-SUFFIX,blackaicoding.com
+DOMAIN-SUFFIX,nocodingjustai.me
