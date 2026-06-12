@@ -1,0 +1,3 @@
+# NAME: DirectPin
+# PURPOSE: Highest-priority direct exceptions that must beat broader proxy rules. Keep small.
+

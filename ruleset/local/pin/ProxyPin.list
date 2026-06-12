@@ -1,0 +1,3 @@
+# NAME: ProxyPin
+# PURPOSE: Highest-priority proxy exceptions that must beat broader direct rules. Keep small.
+
