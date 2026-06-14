@@ -14,7 +14,7 @@ This branch keeps public rule/config architecture only. Private node subscriptio
 - `proxy/Claude.list`: Claude/Anthropic only.
 - `proxy/OpenAI.list`: OpenAI/ChatGPT/Sora only.
 - `proxy/AI.list`: AI services excluding Claude and OpenAI.
-- `proxy/VPN1.list`, `proxy/VPN2.list`, `proxy/Mail.list`, `proxy/MailPort.list`, `proxy/Xbox.list`: migrated legacy specialty lists.
+- `proxy/VPN1.list`, `proxy/VPN2.list`, `proxy/Mail.list`, `proxy/Xbox.list`: migrated legacy specialty lists. Mail port rules are folded into `proxy/Mail.list`.
 - `proxy/ProxyLite.list`, `proxy/ProxyMedia.list`: migrated legacy lists with obvious AI/OpenAI/Claude duplicates removed.
 
 ## Reject

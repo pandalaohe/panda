@@ -23,6 +23,8 @@ dns:
   fake-ip-range: 198.18.0.0/16
   fake-ip-filter-mode: rule
   fake-ip-filter:
+    - RULE-SET,Claude,fake-ip
+    - RULE-SET,OpenAI,fake-ip
     - RULE-SET,AI,fake-ip
     - RULE-SET,IntlMedia_Priority,fake-ip
     - RULE-SET,FakeIP_Direct_RealIP,real-ip
@@ -64,6 +66,12 @@ dns:
     "rule-set:FakeIP_Direct_RealIP":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+    "rule-set:Claude":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
+    "rule-set:OpenAI":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
     "rule-set:AI":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
@@ -222,6 +230,22 @@ dns:
       - https://dns.alidns.com/dns-query
 
 rule-providers:
+  Claude:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/proxy/Claude.list"
+    path: ./ruleset/local/proxy/Claude.list
+    interval: 86400
+
+  OpenAI:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/proxy/OpenAI.list"
+    path: ./ruleset/local/proxy/OpenAI.list
+    interval: 86400
+
   AI:
     type: http
     behavior: classical
