@@ -6,14 +6,3 @@ DOMAIN-SUFFIX,aihubmix.com
 
 # CCTQ provider endpoint
 DOMAIN,www.cctq.ai
-
-# Google Gemini API endpoint
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-
-# Model API providers
-DOMAIN,api.dify.ai
-DOMAIN,api.groq.com
-DOMAIN,api.mistral.ai
-DOMAIN,api.perplexity.ai
-DOMAIN,api.together.xyz
-DOMAIN,api.x.ai

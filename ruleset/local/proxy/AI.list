@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,openrouter.ai
+DOMAIN,api.together.xyz
 
 # Meta / Perplexity / Poe / Jasper / OpenArt
 DOMAIN-SUFFIX,meta.ai
