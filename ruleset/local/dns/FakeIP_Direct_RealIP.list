@@ -1,6 +1,6 @@
 # NAME: FakeIP_Direct_RealIP
 # PURPOSE: Generated real-ip binding list for strong direct domains in fake-ip mode.
-# SOURCE: DirectPin, APIProviders, ChinaBank, ChinaMail, ChinaMedia, DirectCore, HomeServices, Passthrough, SteamDownload, TempDirect, AdBlock_Allow.
+# SOURCE: DirectPin, AI_Direct, APIProviders, ChinaBank, ChinaMail, ChinaMedia, DirectCore, HomeServices, Passthrough, SteamDownload, TempDirect, AdBlock_Allow.
 # GENERATED-BY: panda-rule-align policy; edit source direct lists first.
 
 DOMAIN-SUFFIX,abchina.com

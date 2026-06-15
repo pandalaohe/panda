@@ -4,6 +4,7 @@ This branch keeps public rule/config architecture only. Private node subscriptio
 
 ## Direct
 - `direct/Passthrough.list`: renamed from old `UnBan.list`; high-priority allowlist plus Cloudflare Tunnel, remote-control, DDNS, and home-domain real/direct rules.
+- `direct/AI_Direct.list`: AI/API services that are confirmed direct-reachable; route through `全球直连` while keeping AI ownership separate from generic passthrough.
 - Private tracker domains are maintained inside `direct/Passthrough.list`; a separate PT runtime list is intentionally avoided.
 - `direct/HomeServices.list`: LAN/private/home service direct rules.
 - `direct/SteamDownload.list`: Steam content CDN direct rules.
@@ -13,7 +14,7 @@ This branch keeps public rule/config architecture only. Private node subscriptio
 ## Proxy
 - `proxy/Claude.list`: Claude/Anthropic only.
 - `proxy/OpenAI.list`: OpenAI/ChatGPT/Sora only.
-- `proxy/AI.list`: AI services excluding Claude and OpenAI.
+- `proxy/AI.list`: AI services excluding Claude and OpenAI when direct probe is absent, failed, or explicitly overridden.
 - `proxy/VPN1.list`, `proxy/VPN2.list`, `proxy/Mail.list`, `proxy/Xbox.list`: migrated legacy specialty lists. Mail port rules are folded into `proxy/Mail.list`.
 - `proxy/ProxyLite.list`, `proxy/ProxyMedia.list`: migrated legacy lists with obvious AI/OpenAI/Claude duplicates removed.
 

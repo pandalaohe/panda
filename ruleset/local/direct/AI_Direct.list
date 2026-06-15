@@ -1,0 +1,4 @@
+# NAME: AI_Direct
+# PURPOSE: AI/API services that are confirmed direct-reachable. Route zone is DIRECT, ownership remains AI.
+
+DOMAIN-SUFFIX,aihubmix.com
