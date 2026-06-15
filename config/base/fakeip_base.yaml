@@ -25,6 +25,7 @@ dns:
   fake-ip-filter:
     - RULE-SET,Claude,fake-ip
     - RULE-SET,OpenAI,fake-ip
+    - RULE-SET,ProxyPin,fake-ip
     - RULE-SET,AI,fake-ip
     - RULE-SET,IntlMedia_Priority,fake-ip
     - RULE-SET,FakeIP_Direct_RealIP,real-ip
@@ -70,6 +71,9 @@ dns:
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "rule-set:OpenAI":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
+    "rule-set:ProxyPin":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "rule-set:AI":
@@ -244,6 +248,14 @@ rule-providers:
     format: text
     url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/proxy/OpenAI.list"
     path: ./ruleset/local/proxy/OpenAI.list
+    interval: 86400
+
+  ProxyPin:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/pin/ProxyPin.list"
+    path: ./ruleset/local/pin/ProxyPin.list
     interval: 86400
 
   AI:
