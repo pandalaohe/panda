@@ -1,4 +1,46 @@
 # NAME: AI_Direct
 # PURPOSE: AI/API services that are confirmed direct-reachable. Route zone is DIRECT, ownership remains AI.
 
+# AIHubMix
 DOMAIN-SUFFIX,aihubmix.com
+
+# CCTQ provider endpoint
+DOMAIN,www.cctq.ai
+
+# Augment
+DOMAIN-SUFFIX,augmentcode.com
+
+# Codeium
+DOMAIN-SUFFIX,codeium.com
+
+# GitHub Copilot API path
+DOMAIN,api.github.com
+DOMAIN,copilot-proxy.githubusercontent.com
+
+# Cursor
+DOMAIN-SUFFIX,cursor.com
+
+# Dify
+DOMAIN-SUFFIX,dify.ai
+
+# Google Gemini / AI Studio API path
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN,ai.google.dev
+
+# Grok / Groq / Mistral / Together
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN,api.together.xyz
+
+# Perplexity / Poe
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,poe.com
+
+# JetBrains / Grazie
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,grazie.ai
+
+# Zed
+DOMAIN-SUFFIX,zed.dev

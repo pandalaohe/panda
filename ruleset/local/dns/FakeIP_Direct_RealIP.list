@@ -5,6 +5,25 @@
 
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,aihubmix.com
+DOMAIN,www.cctq.ai
+DOMAIN-SUFFIX,augmentcode.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN,api.github.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,dify.ai
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN,api.together.xyz
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,zed.dev
 DOMAIN-SUFFIX,aliimg.com
 DOMAIN-SUFFIX,alimail.aliyun.com
 DOMAIN-SUFFIX,alipan.com
