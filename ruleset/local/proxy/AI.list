@@ -3,6 +3,7 @@
 
 # Augment
 DOMAIN-SUFFIX,augment.com
+DOMAIN-SUFFIX,augmentcode.com
 
 # Cloudflare AI Gateway
 DOMAIN,gateway.ai.cloudflare.com
@@ -12,6 +13,7 @@ DOMAIN-SUFFIX,diabrowser.engineering
 
 # Windsurf / Codeium
 DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,codeiumdata.com
 
 # Chorus
@@ -22,11 +24,15 @@ DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN,copilot.microsoft.com
 DOMAIN-SUFFIX,ai.azure.com
+DOMAIN,api.github.com
+DOMAIN,copilot-proxy.githubusercontent.com
 
 # Cursor
+DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 
 # Dify
+DOMAIN-SUFFIX,dify.ai
 
 # Google Gemini / AI Studio / NotebookLM
 DOMAIN,gemini.gstatic.com
@@ -39,8 +45,10 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,generativeai.google
+DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,waa-pa.clients6.google.com
 DOMAIN-SUFFIX,notebooklm.google
@@ -48,15 +56,21 @@ DOMAIN-SUFFIX,notebooklm.google.com
 
 # Grok / Groq / Mistral / Together / OpenRouter
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,openrouter.ai
 
 # Meta / Perplexity / Poe / Jasper / OpenArt
 DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,openart.ai
 
 # JetBrains / Grazie
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 
 # Siri / Apple relay AI-adjacent services
@@ -65,6 +79,7 @@ DOMAIN,apple-relay.cloudflare.com
 DOMAIN,guzzoni.smoot.apple.com
 
 # Zed
+DOMAIN-SUFFIX,zed.dev
 GEOSITE,jetbrains-ai
 GEOSITE,category-ai-!cn
 GEOSITE,category-ai-chat-!cn
