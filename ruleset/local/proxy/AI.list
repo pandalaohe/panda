@@ -34,9 +34,6 @@ DOMAIN-SUFFIX,cursor.sh
 # Dify
 DOMAIN-SUFFIX,dify.ai
 
-# AIHubMix
-DOMAIN-SUFFIX,aihubmix.com
-
 # Google Gemini / AI Studio / NotebookLM
 DOMAIN,gemini.gstatic.com
 DOMAIN,robinfrontend-pa.googleapis.com
