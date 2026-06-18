@@ -59,6 +59,9 @@ DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN,api.together.xyz
 
+## API routers / aggregators
+DOMAIN,router.tumuer.me
+
 # Meta / Perplexity / Poe / Jasper / OpenArt
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,perplexity.ai

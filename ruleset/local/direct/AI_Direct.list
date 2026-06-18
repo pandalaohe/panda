@@ -6,3 +6,6 @@ DOMAIN-SUFFIX,aihubmix.com
 
 # CCTQ provider endpoint
 DOMAIN,www.cctq.ai
+
+## Micu API provider
+DOMAIN-SUFFIX,micuapi.ai

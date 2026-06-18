@@ -41,6 +41,8 @@ DOMAIN-SUFFIX,bit.no.com
 DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,datadoghq.com
+## Datadog telemetry
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
 DOMAIN-SUFFIX,dubox.com
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,garena.com
@@ -58,6 +60,8 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sift.com
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stripe.com
+## Stripe / payment support
+DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,teddysun.com
 DOMAIN-SUFFIX,tumbex.com
 DOMAIN-SUFFIX,twdvd.com
@@ -393,3 +397,21 @@ DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,emby.media
+
+## Cloudflare STUN
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN,stun.cloudflare.com
+
+## Security / captcha
+DOMAIN-SUFFIX,hcaptcha.com
+
+## Overseas weather API
+DOMAIN-SUFFIX,met.no
+
+## Android emulator / game support
+DOMAIN-SUFFIX,ldstatic.com
+
+## ByteDance / TikTok international APIs
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteplusbiz.com
+DOMAIN-SUFFIX,ttwstatic.com

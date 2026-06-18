@@ -52,6 +52,16 @@ DOMAIN-SUFFIX,iflyrec.com
 DOMAIN-SUFFIX,iflyink.com
 DOMAIN-SUFFIX,iflyos.cn
 
+## JLC / LCSC
+DOMAIN-SUFFIX,jlc.com
+
+## VolcEngine / ByteDance cloud
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volccdn.com
+DOMAIN-SUFFIX,gcloudcache.com
+DOMAIN-SUFFIX,bytetcc.com
+
 DOMAIN-SUFFIX,xesimg.com
 DOMAIN-SUFFIX,chuangjing.com
 DOMAIN-SUFFIX,xescnd.com
