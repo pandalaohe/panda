@@ -25,6 +25,20 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 
 # Existing personal allowlist
 DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,7fresh.com
+DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,healthjd.com
+DOMAIN-SUFFIX,jdcloud-oss.com
+DOMAIN-SUFFIX,jddj.com
+DOMAIN-SUFFIX,jdh.com
+DOMAIN-SUFFIX,jdl.com
+DOMAIN-SUFFIX,jdwl.com
+DOMAIN-SUFFIX,jhscm.com
+DOMAIN-SUFFIX,jingdong.com
+DOMAIN-SUFFIX,jkcsjd.com
+DOMAIN-SUFFIX,vipmro.com
+DOMAIN-SUFFIX,vipmro.net
+DOMAIN-SUFFIX,yiyaojd.com
 DOMAIN-SUFFIX,citizenwiki.cn
 DOMAIN-KEYWORD,m-team
 DOMAIN-SUFFIX,open.cd

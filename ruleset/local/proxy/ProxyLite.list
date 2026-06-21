@@ -44,6 +44,10 @@ DOMAIN-SUFFIX,datadoghq.com
 ## Datadog telemetry
 DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
 DOMAIN-SUFFIX,dubox.com
+## WebLeak app/developer services
+DOMAIN-SUFFIX,esm.sh
+DOMAIN-SUFFIX,immersivetranslate.com
+DOMAIN-SUFFIX,thebackend.io
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,garena.com
 DOMAIN-SUFFIX,hoyolab.com

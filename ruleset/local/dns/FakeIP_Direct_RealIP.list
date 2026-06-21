@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,71.am
 DOMAIN-SUFFIX,71edge.com
 DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,7fresh.com
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
@@ -146,6 +147,7 @@ DOMAIN-SUFFIX,foxmail.com
 DOMAIN-SUFFIX,frp.freefrp.net
 DOMAIN-SUFFIX,fun.tv
 DOMAIN-SUFFIX,gcloudcache.com
+DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,goofish.pro
 DOMAIN-SUFFIX,googletagmanager.com
@@ -155,6 +157,7 @@ DOMAIN-SUFFIX,gtimg.cn
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,healthjd.com
 DOMAIN-SUFFIX,hiwifi.com
 DOMAIN-SUFFIX,home.arpa
 DOMAIN-SUFFIX,hunantv.com
@@ -183,7 +186,15 @@ DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,itc.cn
 DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jdcloud-oss.com
+DOMAIN-SUFFIX,jddj.com
+DOMAIN-SUFFIX,jdh.com
+DOMAIN-SUFFIX,jdl.com
+DOMAIN-SUFFIX,jdwl.com
+DOMAIN-SUFFIX,jhscm.com
+DOMAIN-SUFFIX,jingdong.com
 DOMAIN-SUFFIX,jlc.com
+DOMAIN-SUFFIX,jkcsjd.com
 DOMAIN-SUFFIX,kankan.com
 DOMAIN-SUFFIX,koodomobile.ca
 DOMAIN-SUFFIX,koodomobile.com
@@ -316,6 +327,8 @@ DOMAIN-SUFFIX,up-hl.3g.qq.com
 DOMAIN-SUFFIX,v.qq.com
 DOMAIN-SUFFIX,vicp.net
 DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,vipmro.com
+DOMAIN-SUFFIX,vipmro.net
 DOMAIN-SUFFIX,vip.126.com
 DOMAIN-SUFFIX,vip.163.com
 DOMAIN-SUFFIX,vip.sina.com
@@ -346,6 +359,7 @@ DOMAIN-SUFFIX,xfyun.com
 DOMAIN-SUFFIX,xianyu.mobi
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,yojywp.xyz
+DOMAIN-SUFFIX,yiyaojd.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,ysp.cctv.cn
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
