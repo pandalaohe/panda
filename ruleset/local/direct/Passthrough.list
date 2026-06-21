@@ -68,6 +68,10 @@ DOMAIN-SUFFIX,iflyos.cn
 
 ## JLC / LCSC
 DOMAIN-SUFFIX,jlc.com
+DOMAIN-SUFFIX,jlcfa.com
+
+## Forface 3D
+DOMAIN-SUFFIX,forface3d.com
 
 ## VolcEngine / ByteDance cloud
 DOMAIN-SUFFIX,volcengine.com

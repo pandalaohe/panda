@@ -404,6 +404,7 @@ DOMAIN-SUFFIX,emby.media
 
 ## Cloudflare STUN
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-ech.com
 DOMAIN,stun.cloudflare.com
 
 ## Security / captcha
