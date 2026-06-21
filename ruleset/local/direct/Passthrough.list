@@ -111,4 +111,7 @@ DOMAIN-SUFFIX,alipan.com
 DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,qiezibenpao.com
+
+## Tencent CDN
+DOMAIN-SUFFIX,tcdnos.com
 DOMAIN-SUFFIX,tencentmusic.com
