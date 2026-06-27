@@ -44,6 +44,18 @@ DOMAIN-SUFFIX,datadoghq.com
 ## Datadog telemetry
 DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
 DOMAIN-SUFFIX,dubox.com
+## WebLeak proxy services 2026-06-27
+DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,ohttp-relay1.fastly-edge.com
+DOMAIN-SUFFIX,home-assistant.io
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,nvidia.com
+DOMAIN-SUFFIX,overwolf.com
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN,antigravity-auto-updater-974169037036.us-central1.run.app
+DOMAIN,eas3.msg.t-mobile.com
+DOMAIN-SUFFIX,tampermonkey.net
 ## WebLeak app/developer services
 DOMAIN-SUFFIX,esm.sh
 DOMAIN-SUFFIX,immersivetranslate.com

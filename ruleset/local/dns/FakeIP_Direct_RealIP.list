@@ -1,6 +1,6 @@
 # NAME: FakeIP_Direct_RealIP
 # PURPOSE: Generated real-ip binding list for strong direct domains in fake-ip mode.
-# SOURCE: DirectPin, AI_Direct, APIProviders, ChinaBank, ChinaMail, ChinaMedia, DirectCore, HomeServices, Passthrough, SteamDownload, TempDirect, AdBlock_Allow.
+# SOURCE: DirectPin, AI_Direct, APIProviders, ChinaBank, ChinaMail, ChinaMedia, DirectCore, HomeServices, Passthrough, SteamDownload, TempDirect, AdBlock_Allow, AdsAnalytics_Direct.
 # GENERATED-BY: panda-rule-align policy; edit source direct lists first.
 
 DOMAIN,app.adjust.com
@@ -73,6 +73,8 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,askdiandian.com
 DOMAIN-SUFFIX,auok.tech
+DOMAIN-SUFFIX,aqara.com
+DOMAIN-SUFFIX,bdcgslb.com
 DOMAIN-SUFFIX,b23.tv
 DOMAIN-SUFFIX,b886.top
 DOMAIN-SUFFIX,b888.top
@@ -100,6 +102,11 @@ DOMAIN-SUFFIX,blackaicoding.com
 DOMAIN-SUFFIX,boc.cn
 DOMAIN-SUFFIX,bokecc.com
 DOMAIN-SUFFIX,bosc.cn
+DOMAIN-SUFFIX,bytecdn.com
+DOMAIN-SUFFIX,byteeffecttos.com
+DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytehwm.com
+DOMAIN-SUFFIX,bytemaimg.com
 DOMAIN-SUFFIX,bytetcc.com
 DOMAIN-SUFFIX,cache.pack.google.com
 DOMAIN-SUFFIX,cainiao.com
@@ -131,8 +138,11 @@ DOMAIN-SUFFIX,cntv.cn
 DOMAIN-SUFFIX,crl.pki.goog
 DOMAIN-SUFFIX,diskstation.me
 DOMAIN-SUFFIX,dizhensubao.getui.com
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseeksvc.com
 DOMAIN-SUFFIX,dl.google.com
 DOMAIN-SUFFIX,dl.l.google.com
+DOMAIN-SUFFIX,dongfou.com
 DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,dscloud.biz
 DOMAIN-SUFFIX,dscloud.me
@@ -140,16 +150,24 @@ DOMAIN-SUFFIX,dscloud.mobi
 DOMAIN-SUFFIX,dsmynas.com
 DOMAIN-SUFFIX,dsmynas.net
 DOMAIN-SUFFIX,dsmynas.org
+DOMAIN-SUFFIX,ecombdapi.com
+DOMAIN-SUFFIX,ecombdimg.com
+DOMAIN-SUFFIX,ecombdpage.com
+DOMAIN-SUFFIX,ecombdstatic.com
+DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,exmail.qq.com
 DOMAIN-SUFFIX,familyds.com
 DOMAIN-SUFFIX,familyds.net
 DOMAIN-SUFFIX,familyds.org
+DOMAIN-SUFFIX,feishu.net
 DOMAIN-SUFFIX,foxmail.com
 DOMAIN-SUFFIX,forface3d.com
 DOMAIN-SUFFIX,frp.freefrp.net
+DOMAIN-SUFFIX,fusjb.com
 DOMAIN-SUFFIX,fun.tv
 DOMAIN-SUFFIX,gcloudcache.com
 DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,gitcode.com
 DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,goofish.pro
 DOMAIN-SUFFIX,googletagmanager.com
@@ -160,12 +178,17 @@ DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,healthjd.com
+DOMAIN,config.hiido.com
+DOMAIN,trans.hiido.com
 DOMAIN-SUFFIX,hiwifi.com
 DOMAIN-SUFFIX,home.arpa
 DOMAIN-SUFFIX,hunantv.com
+DOMAIN-SUFFIX,huoshanimg.com
 DOMAIN-SUFFIX,hxb.com.cn
 DOMAIN-SUFFIX,i234.me
 DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,icbc-ltd.com
+DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,iepose.cn
 DOMAIN-SUFFIX,iepose.com
 DOMAIN-SUFFIX,iflyink.com
@@ -230,6 +253,7 @@ DOMAIN-SUFFIX,mail.yeah.net
 DOMAIN-SUFFIX,map.qq.com
 DOMAIN-SUFFIX,mgtv.com
 DOMAIN-SUFFIX,micuapi.ai
+DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,miwifi.com
@@ -248,6 +272,7 @@ DOMAIN-SUFFIX,nocodingjustai.me
 DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,ntp.org.cn
 DOMAIN-SUFFIX,ocsp.pki.goog
+DOMAIN,ocsp.usertrust.com
 DOMAIN-SUFFIX,ol.epicgames.com
 DOMAIN-SUFFIX,open.cd
 DOMAIN-SUFFIX,openclaudecode.cn
@@ -256,6 +281,7 @@ DOMAIN-SUFFIX,oray.net
 DOMAIN-SUFFIX,p.to
 DOMAIN-SUFFIX,packyapi.com
 DOMAIN-SUFFIX,pandahe.com
+DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,peiluyou.com
 DOMAIN-SUFFIX,phicomm.me
 DOMAIN-SUFFIX,pingan.com
@@ -273,6 +299,7 @@ DOMAIN-SUFFIX,psbc.com.cn
 DOMAIN-SUFFIX,pt.btschool.club
 DOMAIN-SUFFIX,ptchdbits.co
 DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,qianwen.com
 DOMAIN-SUFFIX,qiezibenpao.com
 DOMAIN-SUFFIX,qiye.aliyun.com
 DOMAIN-SUFFIX,qiyi.com
@@ -282,7 +309,9 @@ DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qqlive.com
 DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,qrstuvwxyzab.com
 DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,queniuqe.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,router.ctc
 DOMAIN-SUFFIX,routerlogin.com
@@ -290,6 +319,7 @@ DOMAIN-SUFFIX,rustdesk.com
 DOMAIN-SUFFIX,safebrowsing-cache.google.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,settings.crashlytics.com
+DOMAIN-SUFFIX,shuqireader.com
 DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,smtp
 DOMAIN-SUFFIX,smtp.126.com
@@ -300,6 +330,9 @@ DOMAIN-SUFFIX,smtp.yeah.net
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,spdb.com.cn
+DOMAIN-SUFFIX,sjxydc.com
+DOMAIN-SUFFIX,sogou-pdf.com
+DOMAIN-SUFFIX,solar-engine.com
 DOMAIN-SUFFIX,srcb.com
 DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
 DOMAIN-SUFFIX,sssaicode.com
@@ -312,11 +345,13 @@ DOMAIN-SUFFIX,sunlogin.net
 DOMAIN-SUFFIX,synology.me
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,tcdnos.com
+DOMAIN-SUFFIX,tec73.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tendawifi.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,todesk.com
+DOMAIN,sdkgen.data.tianwenca.com
 DOMAIN-SUFFIX,toolbarqueries.google.com
 DOMAIN-SUFFIX,tools.google.com
 DOMAIN-SUFFIX,tools.l.google.com
@@ -326,12 +361,14 @@ DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
 DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,tv.sohu.com
+DOMAIN-SUFFIX,topwidgets.com
 DOMAIN-SUFFIX,u2.dmhy.org
 DOMAIN-SUFFIX,unionpay.com
 DOMAIN-SUFFIX,up-hl.3g.qq.com
 DOMAIN-SUFFIX,v.qq.com
 DOMAIN-SUFFIX,vicp.net
 DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,vegslb.com
 DOMAIN-SUFFIX,vipmro.com
 DOMAIN-SUFFIX,vipmro.net
 DOMAIN-SUFFIX,vip.126.com
@@ -340,6 +377,7 @@ DOMAIN-SUFFIX,vip.sina.com
 DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volces.com
+DOMAIN,vhs.wwstat.com
 DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
 DOMAIN-SUFFIX,wasu.cn
 DOMAIN-SUFFIX,wechat.com
@@ -366,10 +404,13 @@ DOMAIN-SUFFIX,xianyu.mobi
 DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,yojywp.xyz
+DOMAIN-SUFFIX,yingt.fun
 DOMAIN-SUFFIX,yiyaojd.com
+DOMAIN-SUFFIX,yisou.com
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,ysp.cctv.cn
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
 DOMAIN-SUFFIX,zerotier.com
 DOMAIN-SUFFIX,zerotierone.com
+DOMAIN-SUFFIX,zztfly.com
 DOMAIN-SUFFIX,zte.home

@@ -1,0 +1,6 @@
+# NAME: AdsAnalytics_Proxy
+# PURPOSE: Ads, analytics, attribution, SDK, and monitoring endpoints that should default to PROXY with selectable DIRECT/REJECT fallbacks.
+# SOURCE: WebLeak triage 2026-06-27.
+
+## WebLeak ads/analytics proxy 2026-06-27
+DOMAIN-SUFFIX,customer.io

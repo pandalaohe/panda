@@ -1,0 +1,14 @@
+# NAME: AdsAnalytics_Direct
+# PURPOSE: Ads, analytics, attribution, SDK, and monitoring endpoints that should default to DIRECT with a selectable REJECT fallback.
+# SOURCE: WebLeak triage 2026-06-27.
+
+## WebLeak ads/analytics direct 2026-06-27
+DOMAIN-SUFFIX,effirst.com
+DOMAIN,config.hiido.com
+DOMAIN,trans.hiido.com
+DOMAIN-SUFFIX,sjxydc.com
+DOMAIN-SUFFIX,solar-engine.com
+DOMAIN,sdkgen.data.tianwenca.com
+DOMAIN,vhs.wwstat.com
+DOMAIN-SUFFIX,yingt.fun
+DOMAIN-SUFFIX,zztfly.com
