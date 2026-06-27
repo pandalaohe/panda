@@ -1,38 +1,82 @@
-﻿# NAME: FakeIP_Filter_Wide
+# NAME: FakeIP_Filter_Wide
 # PURPOSE: Wide real-IP protection list for fakeip.ini. Domains here should receive real DNS answers.
 
-# Connectivity checks / captive portal
+# Local / reserved names
+DOMAIN-SUFFIX,invalid
+DOMAIN-SUFFIX,test
+
+# Connectivity checks / captive portal / system probes
 DOMAIN,detectportal.firefox.com
 DOMAIN,network-test.debian.org
 
-# STUN / RTC / simple UDP
+# NTP / time sync
+DOMAIN,time1.cloud.tencent.com
+DOMAIN-SUFFIX,time.apple.com
+DOMAIN-SUFFIX,time.edu.cn
+
+# STUN / RTC / simple UDP discovery
 DOMAIN-KEYWORD,stun
 DOMAIN-SUFFIX,turn.twilio.com
 
 # Apple / Microsoft update and push
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,xboxlive.com
 
-# Game / download CDN
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steampowered.com
+# Music and media service probes
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,joox.com
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,media.dssott.com
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,music.migu.cn
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,qqmusic.com
+DOMAIN-SUFFIX,taihe.com
+DOMAIN-SUFFIX,xiami.com
+
+# Game / download CDN / game login probes
+DOMAIN-SUFFIX,battlenet.com.cn
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,ff14.sdo.com
+DOMAIN-SUFFIX,ffxiv.com
+DOMAIN-SUFFIX,finalfantasyxiv.com
 DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,square-enix.com
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,wargaming.net
+DOMAIN-SUFFIX,wggames.cn
+DOMAIN-SUFFIX,wotgame.cn
+DOMAIN-SUFFIX,wowsgame.cn
 
 # Banking / payment / ecommerce
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,ocbc.com
-DOMAIN-SUFFIX,chase.com
 DOMAIN-SUFFIX,bankofamerica.com
+DOMAIN-SUFFIX,chase.com
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,ocbc.com
+DOMAIN-SUFFIX,tenpay.com
 
-# Remote-control / tunnel / DDNS
+# Remote-control / tunnel / DDNS / router helpers
+DOMAIN,local.adguard.org
+DOMAIN,proxy.golang.org
+DOMAIN,shark007.net
+DOMAIN-SUFFIX,belkin.com
+DOMAIN-SUFFIX,linksys.com
+DOMAIN-SUFFIX,linksyssmartwifi.com
+DOMAIN-SUFFIX,n0808.com
+DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-SUFFIX,uu.163.com
 
+# Google network probes that are not broad Google routing rules
+DOMAIN,lens.l.google.com
+DOMAIN,na.b.g-tun.com
