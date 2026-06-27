@@ -173,6 +173,13 @@ DOMAIN-SUFFIX,cainiao.com
 DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,qiezibenpao.com
 
+## WebLeak domestic services 2026-06-27
+DOMAIN,alilang-intranet.alibaba-inc.com
+DOMAIN-SUFFIX,fnnas.com
+DOMAIN-SUFFIX,imnks.com
+DOMAIN-SUFFIX,mijia.tech
+DOMAIN-SUFFIX,xianniu.com
+
 ## Tencent CDN
 DOMAIN-SUFFIX,tcdnos.com
 DOMAIN-SUFFIX,tencentmusic.com
