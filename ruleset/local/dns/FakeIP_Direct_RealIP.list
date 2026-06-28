@@ -33,6 +33,7 @@ DOMAIN,steampowered.com.8686c.com
 DOMAIN,steamstatic.com.8686c.com
 DOMAIN,tracking.miui.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN,video.st.dl.eccdnx.com
 DOMAIN,wmsjsteam.com
 DOMAIN,www.apple.com
 DOMAIN,www.asusrouter.com
@@ -107,6 +108,7 @@ DOMAIN-SUFFIX,bilicdn4.com
 DOMAIN-SUFFIX,bilicdn5.com
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,biliintl.co
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com
@@ -114,6 +116,7 @@ DOMAIN-SUFFIX,blackaicoding.com
 DOMAIN-SUFFIX,boc.cn
 DOMAIN-SUFFIX,bokecc.com
 DOMAIN-SUFFIX,bosc.cn
+DOMAIN-SUFFIX,bvmlt.top
 DOMAIN-SUFFIX,bytecdn.com
 DOMAIN-SUFFIX,byteeffecttos.com
 DOMAIN-SUFFIX,bytegecko.com
@@ -172,6 +175,7 @@ DOMAIN-SUFFIX,ecombdpage.com
 DOMAIN-SUFFIX,ecombdstatic.com
 DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,exmail.qq.com
+DOMAIN-SUFFIX,faceid.com
 DOMAIN-SUFFIX,familyds.com
 DOMAIN-SUFFIX,familyds.net
 DOMAIN-SUFFIX,familyds.org
@@ -274,6 +278,7 @@ DOMAIN-SUFFIX,mgtv.com
 DOMAIN-SUFFIX,micuapi.ai
 DOMAIN-SUFFIX,midea.com
 DOMAIN-SUFFIX,migu.cn
+DOMAIN-SUFFIX,miguku.com
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,mijia.tech
@@ -372,6 +377,7 @@ DOMAIN-SUFFIX,tapimg.com
 DOMAIN-SUFFIX,tcdnos.com
 DOMAIN-SUFFIX,tec73.com
 DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,tencentcloud.com
 DOMAIN-SUFFIX,tencentcs.com
 DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tendawifi.com
