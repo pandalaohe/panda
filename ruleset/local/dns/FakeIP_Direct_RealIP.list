@@ -43,6 +43,7 @@ DOMAIN-KEYWORD,amysecure
 DOMAIN-KEYWORD,aria2
 DOMAIN-KEYWORD,m-team
 DOMAIN-KEYWORD,taobao
+DOMAIN-SUFFIX,166.net
 DOMAIN-SUFFIX,1905.com
 DOMAIN-SUFFIX,265.com
 DOMAIN-SUFFIX,2mdn.net
@@ -69,6 +70,7 @@ DOMAIN-SUFFIX,alt5-mtalk.google.com
 DOMAIN-SUFFIX,alt6-mtalk.google.com
 DOMAIN-SUFFIX,alt7-mtalk.google.com
 DOMAIN-SUFFIX,alt8-mtalk.google.com
+DOMAIN-SUFFIX,aligames.com
 DOMAIN-SUFFIX,amytele.net
 DOMAIN-SUFFIX,api.mob.app.letv.com
 DOMAIN-SUFFIX,app-measurement.com
@@ -84,6 +86,7 @@ DOMAIN-SUFFIX,bankofbeijing.com.cn
 DOMAIN-SUFFIX,bankofchina.com
 DOMAIN-SUFFIX,baofeng.com
 DOMAIN-SUFFIX,bdcgslb.com
+DOMAIN-SUFFIX,beizi.biz
 DOMAIN-SUFFIX,bigfun.cn
 DOMAIN-SUFFIX,bigfunapp.cn
 DOMAIN-SUFFIX,biliapi.com
@@ -123,7 +126,9 @@ DOMAIN-SUFFIX,cebbank.com
 DOMAIN-SUFFIX,cfargotunnel.com
 DOMAIN-SUFFIX,cgbchina.com.cn
 DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,chinanetcenter.com
 DOMAIN-SUFFIX,chuangjing.com
+DOMAIN-SUFFIX,chuangyuejoy.com
 DOMAIN-SUFFIX,cib.com.cn
 DOMAIN-SUFFIX,citicbank.com
 DOMAIN-SUFFIX,citicbank.com.cn
@@ -138,6 +143,7 @@ DOMAIN-SUFFIX,cmbchina.com.cn
 DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,cntv.cn
 DOMAIN-SUFFIX,crl.pki.goog
+DOMAIN-SUFFIX,dbankcloud.com
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,deepseeksvc.com
 DOMAIN-SUFFIX,diskstation.me
@@ -254,14 +260,17 @@ DOMAIN-SUFFIX,mail.sina.com
 DOMAIN-SUFFIX,mail.sohu.com
 DOMAIN-SUFFIX,mail.wo.cn
 DOMAIN-SUFFIX,mail.yeah.net
+DOMAIN-SUFFIX,manlaxy.com
 DOMAIN-SUFFIX,map.qq.com
 DOMAIN-SUFFIX,mgtv.com
 DOMAIN-SUFFIX,micuapi.ai
+DOMAIN-SUFFIX,midea.com
 DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,miwifi.com
+DOMAIN-SUFFIX,mnc011.mcc460.pub.3gppnetwork.org
 DOMAIN-SUFFIX,mobilevc.top
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
@@ -324,6 +333,7 @@ DOMAIN-SUFFIX,safebrowsing-cache.google.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,settings.crashlytics.com
 DOMAIN-SUFFIX,shuqireader.com
+DOMAIN-SUFFIX,smartmidea.net
 DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,smtp
 DOMAIN-SUFFIX,smtp.126.com
@@ -348,11 +358,13 @@ DOMAIN-SUFFIX,sub.kwk7thgc.com
 DOMAIN-SUFFIX,sunlogin.net
 DOMAIN-SUFFIX,synology.me
 DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tapimg.com
 DOMAIN-SUFFIX,tcdnos.com
 DOMAIN-SUFFIX,tec73.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,tendawifi.com
+DOMAIN-SUFFIX,tliveapp.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,todesk.com
 DOMAIN,sdkgen.data.tianwenca.com
@@ -381,6 +393,7 @@ DOMAIN-SUFFIX,vipmro.net
 DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volcvideo.com
 DOMAIN,vhs.wwstat.com
 DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
 DOMAIN-SUFFIX,wasu.cn
@@ -415,6 +428,7 @@ DOMAIN-SUFFIX,yojywp.xyz
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,ysp.cctv.cn
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
+DOMAIN-SUFFIX,yypapa.com
 DOMAIN-SUFFIX,zerotier.com
 DOMAIN-SUFFIX,zerotierone.com
 DOMAIN-SUFFIX,zztfly.com

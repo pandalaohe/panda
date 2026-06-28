@@ -444,3 +444,6 @@ PROCESS-NAME,tv.twitch.android.app
 PROCESS-NAME,com.hktve.viutv
 DOMAIN,ntdfreepc-tgc.cdn.hinet.net
 DOMAIN,cdi.ofiii.com
+
+## WebLeak media services 2026-06-28
+DOMAIN-SUFFIX,thetvdb.com
