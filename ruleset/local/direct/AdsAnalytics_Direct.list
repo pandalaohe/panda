@@ -8,7 +8,6 @@ DOMAIN,config.hiido.com
 DOMAIN,trans.hiido.com
 DOMAIN-SUFFIX,sjxydc.com
 DOMAIN-SUFFIX,solar-engine.com
-DOMAIN,sdkgen.data.tianwenca.com
 DOMAIN,vhs.wwstat.com
 DOMAIN-SUFFIX,yingt.fun
 DOMAIN-SUFFIX,zztfly.com
@@ -21,3 +20,9 @@ DOMAIN-SUFFIX,beizi.biz
 DOMAIN-SUFFIX,tliveapp.com
 DOMAIN-SUFFIX,volcvideo.com
 DOMAIN-SUFFIX,yunxish.com
+
+## WebLeak ads/analytics direct 2026-06-30
+DOMAIN-SUFFIX,gravity-engine.com
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,tianwenca.com
+DOMAIN-SUFFIX,clickwifi.net

@@ -1806,3 +1806,6 @@ DOMAIN-SUFFIX,track.hujiang.com
 DOMAIN-SUFFIX,tracker.yhd.com
 DOMAIN-SUFFIX,tralog.ganji.com
 DOMAIN-SUFFIX,up.qingdaonews.com
+
+## WebLeak scam/ad reject 2026-06-30
+DOMAIN-SUFFIX,killcovid2021.com

@@ -31,3 +31,7 @@ DOMAIN-SUFFIX,srcb.com
 DOMAIN-SUFFIX,bosc.cn
 DOMAIN-SUFFIX,pingan.com
 DOMAIN-SUFFIX,pingan.com.cn
+
+## WebLeak banking/CDN direct 2026-06-30
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,citic

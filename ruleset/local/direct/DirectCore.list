@@ -118,3 +118,9 @@ DOMAIN,steamstatic.com.8686c.com
 DOMAIN,wmsjsteam.com
 DOMAIN,xz.pphimalayanrt.com
 DOMAIN-SUFFIX,cm.steampowered.com
+
+## WebLeak domestic app CDN direct 2026-06-30
+DOMAIN-SUFFIX,bytemastatic.com
+DOMAIN-SUFFIX,jinritemai.com
+DOMAIN-SUFFIX,searchpstatp.com
+DOMAIN-SUFFIX,atianqi.com
