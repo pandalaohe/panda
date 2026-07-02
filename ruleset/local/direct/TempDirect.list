@@ -1,2 +1,5 @@
 # NAME: TempDirect
 # PURPOSE: Short-lived direct test rules promoted from WebLeak. Move stable entries into business lists.
+
+## WebLeak direct 2026-07-02
+DOMAIN-SUFFIX,xiaoyastar.com
