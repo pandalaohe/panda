@@ -2,7 +2,6 @@
 # PURPOSE: Real-IP direct routing for Codex API providers managed by cc-switch.
 
 DOMAIN-SUFFIX,b886.top
-DOMAIN-SUFFIX,openclaudecode.cn
 DOMAIN-SUFFIX,sssaicode.com
 DOMAIN-SUFFIX,packyapi.com
 DOMAIN-SUFFIX,clawto.link

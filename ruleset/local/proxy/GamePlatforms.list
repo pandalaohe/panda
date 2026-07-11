@@ -54,3 +54,16 @@ DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,nintendo.nl
 DOMAIN-SUFFIX,nintendowifi.net
 DOMAIN-SUFFIX,steamstatic.com
+
+## WebLeak game platform suffixes 2026-07-11
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,budgenetwork.com
+DOMAIN-SUFFIX,budgestudios.ca
+DOMAIN-SUFFIX,docs.p
+DOMAIN-SUFFIX,docs.pal
+DOMAIN-SUFFIX,docs.palworld
+DOMAIN-SUFFIX,docs.palworldgame
+DOMAIN-SUFFIX,gaming-sdk.com
+DOMAIN-SUFFIX,minecraft-services.net
+DOMAIN-SUFFIX,palworldgame.com

@@ -449,3 +449,7 @@ DOMAIN,cdi.ofiii.com
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,thetvdb.com
+
+## WebLeak media suffixes 2026-07-11
+DOMAIN-SUFFIX,fireside.fm
+DOMAIN-SUFFIX,imgur.com

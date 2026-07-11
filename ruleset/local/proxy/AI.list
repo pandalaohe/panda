@@ -1,36 +1,15 @@
 ﻿# NAME: AI
 # PURPOSE: AI services excluding Claude/Anthropic and OpenAI/ChatGPT/Sora, which have dedicated lists.
 
-# Augment
-DOMAIN-SUFFIX,augment.com
-DOMAIN-SUFFIX,augmentcode.com
-
 # Cloudflare AI Gateway
 DOMAIN,gateway.ai.cloudflare.com
 
 # DIA
 DOMAIN-SUFFIX,diabrowser.engineering
 
-# Windsurf / Codeium
-DOMAIN-SUFFIX,windsurf.com
-DOMAIN-SUFFIX,codeium.com
-DOMAIN-SUFFIX,codeiumdata.com
-
-# Chorus
-DOMAIN-SUFFIX,chorus.sh
-
-# GitHub Copilot / Microsoft Copilot
-DOMAIN-SUFFIX,githubcopilot.com
+# Shared Microsoft/GitHub AI endpoints
 DOMAIN-SUFFIX,ai.azure.com
 DOMAIN,api.github.com
-DOMAIN,copilot-proxy.githubusercontent.com
-
-# Cursor
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
-
-# Dify
-DOMAIN-SUFFIX,dify.ai
 
 # Google Gemini / AI Studio / NotebookLM
 DOMAIN,gemini.gstatic.com
@@ -52,11 +31,10 @@ DOMAIN,waa-pa.clients6.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 
-# Grok / Groq / Mistral / Together / OpenRouter
+# Grok / Groq / Mistral / Together
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,mistral.ai
-DOMAIN-SUFFIX,openrouter.ai
 DOMAIN,api.together.xyz
 
 ## API routers / aggregators
@@ -64,27 +42,19 @@ DOMAIN-SUFFIX,cdn-krill-ai.com
 DOMAIN-SUFFIX,krill-ai.com
 DOMAIN,router.tumuer.me
 
-# Meta / Perplexity / Poe / Jasper / OpenArt
+# Meta / Clipdrop / OpenArt
 DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,clipdrop.co
-DOMAIN-SUFFIX,jasper.ai
 DOMAIN-SUFFIX,openart.ai
-
-# JetBrains / Grazie
-DOMAIN-SUFFIX,jetbrains.ai
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
 
 # Siri / Apple relay AI-adjacent services
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,guzzoni.smoot.apple.com
 
-# Zed
-DOMAIN-SUFFIX,zed.dev
-GEOSITE,jetbrains-ai
 GEOSITE,category-ai-!cn
 GEOSITE,category-ai-chat-!cn
-DOMAIN-SUFFIX,cctq.ai
+
+## WebLeak general AI 2026-07-11
+DOMAIN-SUFFIX,flow.ai
+DOMAIN-SUFFIX,interviewpal.com

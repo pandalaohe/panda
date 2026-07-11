@@ -53,11 +53,6 @@ dns:
       - https://dns.alidns.com/dns-query
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
-    "+.openclaudecode.cn":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
-      - https://dns.google/dns-query
-      - https://dns.cloudflare.com/dns-query
     "+.sssaicode.com":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query

@@ -174,7 +174,6 @@ DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,qiezibenpao.com
 
 ## WebLeak domestic services 2026-06-27
-DOMAIN,alilang-intranet.alibaba-inc.com
 DOMAIN-SUFFIX,fnnas.com
 DOMAIN-SUFFIX,imnks.com
 DOMAIN-SUFFIX,mijia.tech
@@ -224,3 +223,44 @@ DOMAIN-SUFFIX,qingyeyun.com
 DOMAIN-SUFFIX,vhallyun.com
 DOMAIN-SUFFIX,miinsurtech.com
 DOMAIN-SUFFIX,tjjt360.com
+
+## WebLeak parent suffixes 2026-07-11
+DOMAIN-SUFFIX,300hu.com
+DOMAIN-SUFFIX,53kf.com
+DOMAIN-SUFFIX,alibaba-inc.com
+DOMAIN-SUFFIX,alibtrip.com
+DOMAIN-SUFFIX,bitautoimg.com
+DOMAIN-SUFFIX,didistatic.com
+DOMAIN-SUFFIX,dingtalkapps.com
+DOMAIN-SUFFIX,etourgo.com
+DOMAIN-SUFFIX,feishucdn.com
+DOMAIN-SUFFIX,feizhu.com
+DOMAIN-SUFFIX,fujinjiazheng.com
+DOMAIN-SUFFIX,gamepp.com
+DOMAIN-SUFFIX,gnss-eph.oss-cn-hangzhou
+DOMAIN-SUFFIX,hao86.com
+DOMAIN-SUFFIX,huizecdn.com
+DOMAIN-SUFFIX,lixiang.com
+DOMAIN-SUFFIX,meditrustbroker.com
+DOMAIN-SUFFIX,netease.im
+DOMAIN-SUFFIX,okii.com
+DOMAIN-SUFFIX,pddugc.com
+DOMAIN-SUFFIX,pinduoduo.net
+DOMAIN-SUFFIX,qishui.com
+DOMAIN-SUFFIX,qixin18.com
+DOMAIN-SUFFIX,qixin19.com
+DOMAIN-SUFFIX,sheca.com
+DOMAIN-SUFFIX,shouqianba.com
+DOMAIN-SUFFIX,stkouyu.com
+DOMAIN-SUFFIX,tatstm.com
+DOMAIN-SUFFIX,tencent-cloud.com
+DOMAIN-SUFFIX,tlivedns.com
+DOMAIN-SUFFIX,tlivesource.com
+DOMAIN-SUFFIX,toutiaostatic.com
+DOMAIN-SUFFIX,umetrip.com
+DOMAIN-SUFFIX,xiamenair.com
+DOMAIN-SUFFIX,xiaoyuzhoufm.com
+DOMAIN-SUFFIX,yeah.net
+DOMAIN-SUFFIX,youzan.com
+DOMAIN-SUFFIX,zuche.com
+DOMAIN-SUFFIX,zuchecdn.com
