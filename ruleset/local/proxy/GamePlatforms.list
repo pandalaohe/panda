@@ -67,3 +67,8 @@ DOMAIN-SUFFIX,docs.palworldgame
 DOMAIN-SUFFIX,gaming-sdk.com
 DOMAIN-SUFFIX,minecraft-services.net
 DOMAIN-SUFFIX,palworldgame.com
+
+## WebLeak game platform suffixes 2026-07-11 round 2
+DOMAIN-SUFFIX,api.aws
+DOMAIN-SUFFIX,unity.com
+DOMAIN-SUFFIX,unity3d.com

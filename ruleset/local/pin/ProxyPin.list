@@ -1,5 +1,8 @@
 # NAME: ProxyPin
 # PURPOSE: Highest-priority proxy exceptions that must beat broader direct rules. Keep small.
 
+## Microsoft Copilot Web
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN,sydney.bing.com
 DOMAIN,edgeservices.bing.com
