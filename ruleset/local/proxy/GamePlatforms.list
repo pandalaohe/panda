@@ -72,3 +72,8 @@ DOMAIN-SUFFIX,palworldgame.com
 DOMAIN-SUFFIX,api.aws
 DOMAIN-SUFFIX,unity.com
 DOMAIN-SUFFIX,unity3d.com
+
+## WebLeak seq 1837-2109 2026-07-25
+DOMAIN-SUFFIX,moonlight-stream.org
+DOMAIN-SUFFIX,nexusmods.com
+DOMAIN-SUFFIX,playoverwatch.net

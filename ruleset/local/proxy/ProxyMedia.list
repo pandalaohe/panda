@@ -453,3 +453,9 @@ DOMAIN-SUFFIX,thetvdb.com
 ## WebLeak media suffixes 2026-07-11
 DOMAIN-SUFFIX,fireside.fm
 DOMAIN-SUFFIX,imgur.com
+
+## WebLeak seq 1837-2109 2026-07-25
+DOMAIN-SUFFIX,embydata.com
+DOMAIN-SUFFIX,fanart.tv
+DOMAIN-SUFFIX,kaltura.com
+DOMAIN-SUFFIX,shazam.com

@@ -54,3 +54,25 @@ DOMAIN-SUFFIX,tj1.youzan.com
 DOMAIN-SUFFIX,probe.youzan.com
 DOMAIN-SUFFIX,zuchedmonitor.zuche.com
 DOMAIN-SUFFIX,mktm.zuche.com
+
+## WebLeak seq 1837-2109 2026-07-25
+DOMAIN-SUFFIX,1rtb.com
+DOMAIN-SUFFIX,advlion.com
+DOMAIN-SUFFIX,alibabachengdun.net
+DOMAIN-SUFFIX,fancydsp.com
+DOMAIN-SUFFIX,lingjuad.com
+DOMAIN-SUFFIX,linkedme.cc
+DOMAIN-SUFFIX,mentamob.com
+DOMAIN-SUFFIX,mobrtb.com
+DOMAIN-SUFFIX,youjingnetwork.com
+DOMAIN,ad.wanchuweilai.com
+DOMAIN,adx.ys7.com
+DOMAIN,applog.iotcloud.tencentiotcloud.com
+DOMAIN,gtm-cn-0gx414swm01.6scloud.com
+DOMAIN,hugelog.fcbox.com
+DOMAIN,idcconfig.gcloudsdk.com
+DOMAIN,kye-log-sdk.ky-express.com
+DOMAIN,mobilemad.zlongame.com
+DOMAIN,sdk.yiigle.com
+DOMAIN,sentry-f2e.dxy.net
+DOMAIN,ypub.qc.yuecdn.net

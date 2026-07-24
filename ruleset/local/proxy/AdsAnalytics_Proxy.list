@@ -69,3 +69,22 @@ DOMAIN-SUFFIX,mediation.unity3d.com
 DOMAIN-SUFFIX,kueez.com
 DOMAIN-SUFFIX,mailerlite.com
 DOMAIN-SUFFIX,pirsch.io
+
+## WebLeak seq 1837-2109 2026-07-25
+DOMAIN-SUFFIX,6sc.co
+DOMAIN-SUFFIX,6sense.com
+DOMAIN-SUFFIX,adsensecustomsearchads.com
+DOMAIN-SUFFIX,aptabase.com
+DOMAIN-SUFFIX,cookiefirst.com
+DOMAIN-SUFFIX,dwin1.com
+DOMAIN-SUFFIX,livesession.io
+DOMAIN-SUFFIX,matomo.cloud
+DOMAIN-SUFFIX,mktoresp.com
+DOMAIN-SUFFIX,rnengage.com
+DOMAIN-SUFFIX,syndicatedsearch.goog
+DOMAIN-SUFFIX,zi-scripts.com
+DOMAIN,bf99154egr.bf.dynatrace.com
+DOMAIN,clanker-events.squarespace.com
+DOMAIN,incoming.telemetry.mozilla.org
+DOMAIN,performance.squarespace.com
+DOMAIN,ws.zoominfo.com
