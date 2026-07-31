@@ -117,6 +117,12 @@ DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
+## APKPure service namespaces
+DOMAIN-SUFFIX,apkpure.net
+DOMAIN-SUFFIX,apkpures.xyz
+DOMAIN-SUFFIX,cdnpure.com
+DOMAIN-SUFFIX,pureapk.com
+DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,armorgames.com
@@ -632,9 +638,6 @@ DOMAIN-SUFFIX,playwright.dev
 DOMAIN-SUFFIX,salesforce.com
 DOMAIN-SUFFIX,thurrott.com
 DOMAIN-SUFFIX,walletconnect.org
-DOMAIN-SUFFIX,clau.de
-DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
-DOMAIN-SUFFIX,anthropic.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,anthropic-com.ghost.io
 DOMAIN-SUFFIX,getfernand.com
 DOMAIN-SUFFIX,jetbrains.com
@@ -746,3 +749,10 @@ DOMAIN,powerlb.zblb.uc123.com
 DOMAIN,res.windmill.com
 DOMAIN,static.airwallex.com
 DOMAIN,wecdn-f865.kxcdn.com
+
+## WebLeak seq 2110-2398 2026-07-31
+DOMAIN-SUFFIX,git-scm.com
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN,acme-v02.api.letsencrypt.org
+DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
+DOMAIN,api.firwinds.site

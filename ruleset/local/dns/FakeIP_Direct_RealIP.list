@@ -5,6 +5,7 @@
 
 DOMAIN,ad.wanchuweilai.com
 DOMAIN,adx.ys7.com
+DOMAIN,api.myadsget.com
 DOMAIN,app.adjust.com
 DOMAIN,applog.iotcloud.tencentiotcloud.com
 DOMAIN,bdtj.tagtic.cn
@@ -24,13 +25,16 @@ DOMAIN,hugelog.fcbox.com
 DOMAIN,idcconfig.gcloudsdk.com
 DOMAIN,instant.arubanetworks.com
 DOMAIN,kye-log-sdk.ky-express.com
+DOMAIN,mce.vivojrkj.com
 DOMAIN,mobilemad.zlongame.com
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
 DOMAIN,ocsp.usertrust.com
+DOMAIN,openapi-c.insta360.com
 DOMAIN,origin-a.akamaihd.net
 DOMAIN,rewards.hypixel.net
 DOMAIN,router.asus.com
+DOMAIN,sdk.apicgate.com
 DOMAIN,sdk.yiigle.com
 DOMAIN,sentry-f2e.dxy.net
 DOMAIN,setmeup.arubanetworks.com
@@ -43,6 +47,7 @@ DOMAIN,steampipe.akamaized.net
 DOMAIN,steampipe.steamcontent.tnkjmec.com
 DOMAIN,steampowered.com.8686c.com
 DOMAIN,steamstatic.com.8686c.com
+DOMAIN,svibeacon.onezapp.com
 DOMAIN,tracking.miui.com
 DOMAIN,trans.hiido.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
@@ -162,6 +167,7 @@ DOMAIN-SUFFIX,ccbchina.com
 DOMAIN-SUFFIX,cctv.com
 DOMAIN-SUFFIX,cctvpic.com
 DOMAIN-SUFFIX,cdntips.net
+DOMAIN-SUFFIX,ceair.com
 DOMAIN-SUFFIX,cebbank.com
 DOMAIN-SUFFIX,cfargotunnel.com
 DOMAIN-SUFFIX,cgbchina.com.cn
@@ -333,6 +339,7 @@ DOMAIN-SUFFIX,le.com
 DOMAIN-SUFFIX,leike.cc
 DOMAIN-SUFFIX,letv.com
 DOMAIN-SUFFIX,letvcdn.com
+DOMAIN-SUFFIX,lf127.net
 DOMAIN-SUFFIX,lingjuad.com
 DOMAIN-SUFFIX,linkedme.cc
 DOMAIN-SUFFIX,lixiang.com

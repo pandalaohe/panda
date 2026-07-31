@@ -6,3 +6,6 @@ DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN,sydney.bing.com
 DOMAIN,edgeservices.bing.com
+
+## Google Play download negotiation
+DOMAIN,services.googleapis.cn

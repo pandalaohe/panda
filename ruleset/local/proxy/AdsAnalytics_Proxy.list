@@ -88,3 +88,13 @@ DOMAIN,clanker-events.squarespace.com
 DOMAIN,incoming.telemetry.mozilla.org
 DOMAIN,performance.squarespace.com
 DOMAIN,ws.zoominfo.com
+
+## WebLeak seq 2110-2398 2026-07-31
+DOMAIN-SUFFIX,adsappier.com
+DOMAIN-SUFFIX,apicgate.com
+DOMAIN-SUFFIX,hyperotics.com
+DOMAIN-SUFFIX,liftoff-creatives.io
+DOMAIN-SUFFIX,monetrix.me
+DOMAIN-SUFFIX,mossturbo.com
+DOMAIN-SUFFIX,mtgglobals.com
+DOMAIN-SUFFIX,smadex.com
