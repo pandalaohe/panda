@@ -38,6 +38,9 @@ DOMAIN-SUFFIX,mistral.ai
 DOMAIN,api.together.xyz
 
 ## API routers / aggregators
+# CCTQ provider: user-confirmed PROXY route.
+DOMAIN-SUFFIX,cctq.ai
+# Krill parent fallbacks: exact coding API children are DIRECT in AI_Direct.list.
 DOMAIN-SUFFIX,cdn-krill-ai.com
 DOMAIN-SUFFIX,krill-ai.com
 DOMAIN,router.tumuer.me
@@ -88,7 +91,6 @@ DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,zed.dev
-DOMAIN-SUFFIX,cctq.ai
 DOMAIN-SUFFIX,yunwu.ai
 DOMAIN-SUFFIX,openclaudecode.cn
 DOMAIN-SUFFIX,assets.wlai.vip

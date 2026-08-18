@@ -1,6 +1,14 @@
 # NAME: TempDirect
 # PURPOSE: Short-lived direct test rules promoted from WebLeak. Move stable entries into business lists.
 
+## User-confirmed parent DIRECT overrides 2026-08-19
+DOMAIN-SUFFIX,ninebot.com
+DOMAIN-SUFFIX,zto.com
+DOMAIN-SUFFIX,imou.com
+DOMAIN-SUFFIX,wmpvp.com
+DOMAIN-SUFFIX,youflow.cc
+DOMAIN-SUFFIX,wangwang-etf.com
+
 ## WebLeak direct 2026-07-02
 DOMAIN-SUFFIX,xiaoyastar.com
 

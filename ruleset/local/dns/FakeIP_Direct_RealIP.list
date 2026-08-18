@@ -56,7 +56,15 @@ DOMAIN,video.st.dl.eccdnx.com
 DOMAIN,wmsjsteam.com
 DOMAIN,www.apple.com
 DOMAIN,www.asusrouter.com
-DOMAIN,www.cctq.ai
+DOMAIN,api.cdn-krill-ai.com
+DOMAIN,api-slb.krill-ai.net
+DOMAIN-SUFFIX,ninebot.com
+DOMAIN-SUFFIX,zto.com
+DOMAIN-SUFFIX,imou.com
+DOMAIN-SUFFIX,wmpvp.com
+DOMAIN-SUFFIX,youflow.cc
+DOMAIN-SUFFIX,wangwang-etf.com
+DOMAIN-SUFFIX,tenjin.com
 DOMAIN,www.gstatic.com
 DOMAIN,xz.pphimalayanrt.com
 DOMAIN,ypub.qc.yuecdn.net

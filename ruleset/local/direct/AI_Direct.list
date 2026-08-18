@@ -4,8 +4,10 @@
 # AIHubMix
 DOMAIN-SUFFIX,aihubmix.com
 
-# CCTQ provider endpoint
-DOMAIN,www.cctq.ai
+# User-confirmed Krill coding API DIRECT exceptions.
+# These exact hosts are loaded before proxy/AI.list, whose parent suffix rules remain as fallbacks.
+DOMAIN,api.cdn-krill-ai.com
+DOMAIN,api-slb.krill-ai.net
 
 ## Micu API provider
 DOMAIN-SUFFIX,micuapi.ai

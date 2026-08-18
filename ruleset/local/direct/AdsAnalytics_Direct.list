@@ -2,6 +2,9 @@
 # PURPOSE: Ads, analytics, attribution, SDK, and monitoring endpoints that should default to DIRECT with a selectable REJECT fallback.
 # SOURCE: WebLeak triage 2026-06-27.
 
+## User-confirmed analytics DIRECT override 2026-08-19
+DOMAIN-SUFFIX,tenjin.com
+
 ## WebLeak ads/analytics direct 2026-06-27
 DOMAIN-SUFFIX,effirst.com
 DOMAIN,config.hiido.com
