@@ -23,12 +23,13 @@ dns:
   fake-ip-range: 198.18.0.0/16
   fake-ip-filter-mode: rule
   fake-ip-filter:
+    # Real-IP/direct bindings must win before proxy AI/Claude/OpenAI parents.
+    - RULE-SET,FakeIP_Direct_RealIP,real-ip
     - RULE-SET,Claude,fake-ip
     - RULE-SET,OpenAI,fake-ip
     - RULE-SET,ProxyPin,fake-ip
     - RULE-SET,AI,fake-ip
     - RULE-SET,IntlMedia_Priority,fake-ip
-    - RULE-SET,FakeIP_Direct_RealIP,real-ip
     - RULE-SET,FakeIP_Filter_Wide,real-ip
     - GEOSITE,private,real-ip
     - GEOSITE,cn,real-ip
@@ -284,4 +285,3 @@ rule-providers:
     url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/dns/FakeIP_Filter_Wide.list"
     path: ./ruleset/local/dns/FakeIP_Filter_Wide.list
     interval: 86400
-
