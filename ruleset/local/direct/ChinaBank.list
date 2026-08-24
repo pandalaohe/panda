@@ -38,3 +38,8 @@ DOMAIN-SUFFIX,citic
 
 ## WebLeak bank direct 2026-07-11
 DOMAIN-SUFFIX,fjhxbank.com
+
+## WebLeak payment exact-host direct 2026-08-24
+DOMAIN,syb.allinpay.com
+DOMAIN,vsp.allinpay.com
+DOMAIN,openmer.allinpaysz.com
