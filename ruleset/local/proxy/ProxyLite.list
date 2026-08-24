@@ -793,3 +793,7 @@ DOMAIN-SUFFIX,thetechoutlook.com
 DOMAIN-SUFFIX,tomedes.com
 DOMAIN-SUFFIX,vfsglobal.com
 DOMAIN,tos-mya2lq.vodupload.com
+
+## WebLeak tail seq 2736-2738 2026-08-24
+DOMAIN,api.nrd.nie.163.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,kawasaki.com
