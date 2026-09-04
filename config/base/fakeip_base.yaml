@@ -28,6 +28,7 @@ dns:
     - RULE-SET,Claude,fake-ip
     - RULE-SET,OpenAI,fake-ip
     - RULE-SET,ProxyPin,fake-ip
+    - RULE-SET,MicrosoftBing,fake-ip
     - RULE-SET,AI,fake-ip
     - RULE-SET,IntlMedia_Priority,fake-ip
     - RULE-SET,FakeIP_Filter_Wide,real-ip
@@ -75,6 +76,9 @@ dns:
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "rule-set:ProxyPin":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
+    "rule-set:MicrosoftBing":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
     "rule-set:AI":
@@ -252,6 +256,14 @@ rule-providers:
     format: text
     url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/pin/ProxyPin.list"
     path: ./ruleset/local/pin/ProxyPin.list
+    interval: 86400
+
+  MicrosoftBing:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/pandalaohe/panda/260504/ruleset/local/proxy/MicrosoftBing.list"
+    path: ./ruleset/local/proxy/MicrosoftBing.list
     interval: 86400
 
   AI:

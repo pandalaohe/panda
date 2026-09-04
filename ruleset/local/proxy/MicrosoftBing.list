@@ -1,6 +1,9 @@
 # NAME: MicrosoftBing
 # PURPOSE: High-priority Microsoft/Bing overseas routing before broad China direct rules.
 
+## Microsoft account authentication
+DOMAIN,login.microsoft.com
+
 DOMAIN-SUFFIX,bing.cn
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.com.bo
