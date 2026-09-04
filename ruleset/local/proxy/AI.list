@@ -92,7 +92,6 @@ DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,zed.dev
 DOMAIN-SUFFIX,yunwu.ai
-DOMAIN-SUFFIX,openclaudecode.cn
 DOMAIN-SUFFIX,assets.wlai.vip
 GEOSITE,jetbrains-ai
 
@@ -108,3 +107,13 @@ DOMAIN-SUFFIX,krill-ai.net
 ## WebLeak seq 2598-2735 2026-08-24
 DOMAIN-SUFFIX,colourlab.ai
 DOMAIN-SUFFIX,tavily.com
+
+## WebLeak seq 2739-3064 2026-09-04
+DOMAIN-SUFFIX,fastgpt.io
+DOMAIN-SUFFIX,inkeep.com
+DOMAIN-SUFFIX,krill-code.net
+DOMAIN-SUFFIX,mastra.ai
+DOMAIN-SUFFIX,monica.im
+DOMAIN-SUFFIX,omnigent.ai
+DOMAIN-SUFFIX,openhands.dev
+DOMAIN-SUFFIX,pi.dev

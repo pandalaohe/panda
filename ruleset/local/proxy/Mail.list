@@ -11,7 +11,6 @@ DOMAIN,autodiscover.outlook.com
 DOMAIN,eas.outlook.com
 DOMAIN,hotmail.com
 DOMAIN,imap-mail.outlook.com
-DOMAIN,login.live.com
 DOMAIN,mail.hotmail.com
 DOMAIN,outlook.live.com
 DOMAIN,pop-mail.outlook.com
@@ -47,3 +46,7 @@ DOMAIN-SUFFIX,zohomail.com
 DOMAIN-SUFFIX,mail.zoho.com
 DOMAIN,mail.icloud.com
 DOMAIN-SUFFIX,mail.me.com
+
+## WebLeak seq 2739-3064 2026-09-04
+DOMAIN,gam.mail.yahoosandbox.net
+DOMAIN,gpt.mail.yahoo.net

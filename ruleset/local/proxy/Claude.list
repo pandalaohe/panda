@@ -15,3 +15,6 @@ IP-ASN,399358,no-resolve
   # > User-confirmed truncated Anthropic request fragments
 DOMAIN-SUFFIX,api.an
 DOMAIN-SUFFIX,api.anthropic
+
+## WebLeak seq 2739-3064 2026-09-04
+DOMAIN-SUFFIX,openclaudecode.cn
