@@ -1,0 +1,4 @@
+
+# ── .collab: three-plane layout (T260831-006) — only shared/ travels ──
+/.collab/*
+!/.collab/shared/
