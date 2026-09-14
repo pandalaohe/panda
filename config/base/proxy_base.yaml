@@ -40,6 +40,9 @@ dns:
       - "+.githubusercontent.com"
       - "+.googlevideo.com"
   nameserver-policy:
+    "+.ocbc.com":
+      - "https://dns.google/dns-query#特殊外网1"
+      - "https://dns.cloudflare.com/dns-query#特殊外网1"
     "geosite:private":
       - system
     "geosite:cn,apple-cn,microsoft@cn,steam@cn,category-games@cn,category-game-platforms-download@cn,category-public-tracker":
