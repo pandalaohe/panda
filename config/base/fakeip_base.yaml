@@ -90,6 +90,36 @@ dns:
     "+.ocbc.com":
       - "https://dns.google/dns-query#特殊外网1"
       - "https://dns.cloudflare.com/dns-query#特殊外网1"
+    "account.apple.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "appleid.apple.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "idmsa.apple.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "gsa.apple.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "appleid.cdn-apple.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "setup.icloud.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "+.apple-cloudkit.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "gateway.icloud.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "+.icloud-content.com":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
+    "+.apple-dns.net":
+      - "https://doh.pub/dns-query#DIRECT"
+      - "https://dns.alidns.com/dns-query#DIRECT"
     "geosite:private":
       - system
     "geosite:cn,apple-cn,microsoft@cn,steam@cn,category-games@cn,category-game-platforms-download@cn,category-public-tracker":
