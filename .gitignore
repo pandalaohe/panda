@@ -2,3 +2,15 @@
 # ── .collab: three-plane layout (T260831-006) — only shared/ travels ──
 /.collab/*
 !/.collab/shared/
+# >>> collab-remote-fn travel (managed) >>>
+.claude/**
+.codex/**
+.omnigent/**
+.recycle/**
+metrics/**
+AGENTS.md
+CLAUDE.md
+**/__pycache__/**
+**/.pytest_cache/**
+.DS_Store
+# <<< collab-remote-fn travel (managed) <<<
