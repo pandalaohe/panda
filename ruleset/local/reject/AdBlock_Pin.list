@@ -1,0 +1,8 @@
+# NAME: AdBlock Pin
+# PURPOSE: High-priority reject exceptions that must win before broad DIRECT parent rules.
+# ORDER: Referenced before DirectPin and ProxyPin in config/fakeip.ini and config/proxy.ini.
+
+DOMAIN-SUFFIX,ad.zhangyue.com
+DOMAIN-SUFFIX,push.zhangyue.com
+DOMAIN-SUFFIX,sys.zhangyue.com
+DOMAIN-SUFFIX,u.uc123.com
