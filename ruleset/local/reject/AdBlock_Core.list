@@ -1147,7 +1147,6 @@ DOMAIN-SUFFIX,znsv.baidu.cn
 DOMAIN-SUFFIX,znsv.baidu.com
 DOMAIN-SUFFIX,zz.bdstatic.com
 DOMAIN-SUFFIX,zzy1.quyaoya.com
-DOMAIN-SUFFIX,ad.zhangyue.com
 DOMAIN-SUFFIX,adm.ps.easou.com
 DOMAIN-SUFFIX,aishowbger.com
 DOMAIN-SUFFIX,api.itaoxiaoshuo.com
@@ -1172,13 +1171,11 @@ DOMAIN-SUFFIX,miam4.cn
 DOMAIN-SUFFIX,o.if.qidian.com
 DOMAIN-SUFFIX,p.vq6nsu.cn
 DOMAIN-SUFFIX,picture.duokan.com
-DOMAIN-SUFFIX,push.zhangyue.com
 DOMAIN-SUFFIX,pyerc.com
 DOMAIN-SUFFIX,s1.cmfu.com
 DOMAIN-SUFFIX,sc.shayugg.com
 DOMAIN-SUFFIX,sdk.cferw.com
 DOMAIN-SUFFIX,sezvc.com
-DOMAIN-SUFFIX,sys.zhangyue.com
 DOMAIN-SUFFIX,tjlog.ps.easou.com
 DOMAIN-SUFFIX,tongji.qidian.com
 DOMAIN-SUFFIX,ut2.shuqistat.com
@@ -1443,7 +1440,6 @@ DOMAIN-SUFFIX,patriot.cs.pp.cn
 DOMAIN-SUFFIX,puds.ucweb.com
 DOMAIN-SUFFIX,server.m.pp.cn
 DOMAIN-SUFFIX,track.uc.cn
-DOMAIN-SUFFIX,u.uc123.com
 DOMAIN-SUFFIX,u.ucfly.com
 DOMAIN-SUFFIX,uc.ucweb.com
 DOMAIN-SUFFIX,ucsec.ucweb.com

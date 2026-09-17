@@ -40,6 +40,12 @@ dns:
       - "+.githubusercontent.com"
       - "+.googlevideo.com"
   nameserver-policy:
+    "+.steampowered.com":
+      - "https://dns.google/dns-query#游戏平台"
+      - "https://dns.cloudflare.com/dns-query#游戏平台"
+    "+.steamstatic.com":
+      - "https://dns.google/dns-query#游戏平台"
+      - "https://dns.cloudflare.com/dns-query#游戏平台"
     "+.ocbc.com":
       - "https://dns.google/dns-query#特殊外网1"
       - "https://dns.cloudflare.com/dns-query#特殊外网1"

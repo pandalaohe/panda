@@ -466,7 +466,6 @@ DOMAIN-SUFFIX,ibb.co
 DOMAIN-SUFFIX,live-video.net
 
 ## WebLeak seq 2739-3064 2026-09-04
-DOMAIN,appledownload.qtlcdn.com.redmid.com
 DOMAIN,intcdn-f865.kxcdn.com
 DOMAIN-SUFFIX,archiveofourown.org
 DOMAIN-SUFFIX,bkcdn.net
@@ -488,3 +487,13 @@ DOMAIN-SUFFIX,thenyledger.com
 DOMAIN-SUFFIX,uuu.ovh
 DOMAIN-SUFFIX,vctranscode-ac48db18.com
 DOMAIN-SUFFIX,wikiwand.com
+
+## WebLeak 2026-09-16 seq 3065-3267
+
+DOMAIN-SUFFIX,aznude.com
+DOMAIN-SUFFIX,media-imdb.com
+DOMAIN-SUFFIX,musicfive.com
+DOMAIN-SUFFIX,mymusic5.com
+DOMAIN-SUFFIX,mymusicsheet.com
+DOMAIN-SUFFIX,turner.com
+DOMAIN-SUFFIX,vimeocdn.com

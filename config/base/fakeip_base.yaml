@@ -31,6 +31,8 @@ dns:
     - RULE-SET,MicrosoftBing,fake-ip
     - RULE-SET,AI,fake-ip
     - RULE-SET,IntlMedia_Priority,fake-ip
+    - DOMAIN-SUFFIX,steampowered.com,fake-ip
+    - DOMAIN-SUFFIX,steamstatic.com,fake-ip
     - RULE-SET,FakeIP_Filter_Wide,real-ip
     - GEOSITE,private,real-ip
     - GEOSITE,cn,real-ip
@@ -87,6 +89,12 @@ dns:
     "rule-set:IntlMedia_Priority":
       - https://dns.google/dns-query
       - https://dns.cloudflare.com/dns-query
+    "+.steampowered.com":
+      - "https://dns.google/dns-query#游戏平台"
+      - "https://dns.cloudflare.com/dns-query#游戏平台"
+    "+.steamstatic.com":
+      - "https://dns.google/dns-query#游戏平台"
+      - "https://dns.cloudflare.com/dns-query#游戏平台"
     "+.ocbc.com":
       - "https://dns.google/dns-query#特殊外网1"
       - "https://dns.cloudflare.com/dns-query#特殊外网1"

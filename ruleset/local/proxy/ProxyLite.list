@@ -53,7 +53,6 @@ DOMAIN-SUFFIX,ifconfig.me
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,overwolf.com
 DOMAIN-SUFFIX,quickconnect.to
-DOMAIN,antigravity-auto-updater-974169037036.us-central1.run.app
 DOMAIN,eas3.msg.t-mobile.com
 DOMAIN-SUFFIX,tampermonkey.net
 ## WebLeak app/developer services
@@ -160,7 +159,6 @@ DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,flipboard.com
 DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,gongm.in
-DOMAIN-SUFFIX,id.heroku.com
 DOMAIN-SUFFIX,io.io
 DOMAIN-SUFFIX,issuu.com
 DOMAIN-SUFFIX,ixquick.com
@@ -745,7 +743,6 @@ DOMAIN,ic-cos.kyslb.com
 DOMAIN,m.qunzou.com
 DOMAIN,nvidia.custhelp.com
 DOMAIN,p11.techlab-cdn.com
-DOMAIN,powerlb.zblb.uc123.com
 DOMAIN,res.windmill.com
 DOMAIN,static.airwallex.com
 DOMAIN,wecdn-f865.kxcdn.com
@@ -754,7 +751,6 @@ DOMAIN,wecdn-f865.kxcdn.com
 DOMAIN-SUFFIX,git-scm.com
 DOMAIN-SUFFIX,stripecdn.com
 DOMAIN,acme-v02.api.letsencrypt.org
-DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
 DOMAIN,api.firwinds.site
 
 ## WebLeak seq 2598-2735 2026-08-24
@@ -816,9 +812,7 @@ DOMAIN,rules.atgsvcs.com
 DOMAIN,s3-static.jjwxc.net
 DOMAIN,secureacceptance.cybersource.com
 DOMAIN,static.atgsvcs.com
-DOMAIN,uninstallfeedback-ockdpo3gda-uc.a.run.app
 DOMAIN,www.hk.chinamobile.com
-DOMAIN,yh6f0r4529hb.statuspage.io
 DOMAIN-SUFFIX,030101.xyz
 DOMAIN-SUFFIX,090227.xyz
 DOMAIN-SUFFIX,164746.xyz
@@ -903,3 +897,67 @@ DOMAIN-SUFFIX,webpagetest.org
 DOMAIN-SUFFIX,wetest.vip
 DOMAIN-SUFFIX,wsh-express.com
 DOMAIN-SUFFIX,xeve.io
+
+## WebLeak 2026-09-16 seq 3065-3267
+
+DOMAIN-SUFFIX,64clouds.com
+DOMAIN-SUFFIX,91yun.co
+DOMAIN-SUFFIX,airbnb.com
+DOMAIN-SUFFIX,apollo.io
+DOMAIN-SUFFIX,azrating.com
+DOMAIN-SUFFIX,butterflybouquets.com
+DOMAIN-SUFFIX,bwhstats.com
+DOMAIN-SUFFIX,carnewschina.com
+DOMAIN-SUFFIX,chdbits.de
+DOMAIN-SUFFIX,chord4.com
+DOMAIN-SUFFIX,codex-reset.com
+DOMAIN-SUFFIX,codexreset.org
+DOMAIN-SUFFIX,containers.dev
+DOMAIN-SUFFIX,curl.se
+DOMAIN-SUFFIX,databricks.com
+DOMAIN-SUFFIX,databricksapps.com
+DOMAIN-SUFFIX,debian.org
+DOMAIN-SUFFIX,dev.to
+DOMAIN-SUFFIX,doppiocdn.com
+DOMAIN-SUFFIX,driveteslacanada.ca
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,fivetran.com
+DOMAIN-SUFFIX,flagcdn.com
+DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,imgbox.com
+DOMAIN-SUFFIX,jurist.org
+DOMAIN-SUFFIX,kdpeasy.com
+DOMAIN-SUFFIX,linud.do
+DOMAIN-SUFFIX,llvm.org
+DOMAIN-SUFFIX,loli.net
+DOMAIN-SUFFIX,macos.do
+DOMAIN-SUFFIX,mapia.io
+DOMAIN-SUFFIX,media-net-p3k8.space
+DOMAIN-SUFFIX,miniapp.com
+DOMAIN-SUFFIX,mutagen.io
+DOMAIN-SUFFIX,ourhelp.club
+DOMAIN-SUFFIX,pairdevice.gle
+DOMAIN-SUFFIX,qbb6.com
+DOMAIN-SUFFIX,run.app
+DOMAIN-SUFFIX,sajari.com
+DOMAIN-SUFFIX,search.app
+DOMAIN-SUFFIX,sennheiser-cloud.com
+DOMAIN-SUFFIX,sennheiser.com
+DOMAIN-SUFFIX,sephiriaguide.com
+DOMAIN-SUFFIX,statuspage.io
+DOMAIN-SUFFIX,streamlit.app
+DOMAIN-SUFFIX,streamlit.io
+DOMAIN-SUFFIX,streamlitstatus.com
+DOMAIN-SUFFIX,syncthing.net
+DOMAIN-SUFFIX,tripcdn.com
+DOMAIN-SUFFIX,vmiss.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,zdassets.com
+
+## WebLeak tail 2026-09-16 seq 3268-3279
+
+DOMAIN-SUFFIX,favicon.im
+DOMAIN-SUFFIX,nic.tv
+DOMAIN-SUFFIX,query.domains
+DOMAIN-SUFFIX,sephiriawiki.com
+DOMAIN-SUFFIX,trycatch.co
