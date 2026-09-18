@@ -16,3 +16,12 @@ CLAUDE.md
 # <<< collab-remote-fn travel (managed) <<<
 # GC dry-run reports (family docs.gc-reports) — machine-runtime output, writer-side trimmed by collab_gc_engine.py::_trim_old_reports
 docs/gc-reports/
+# >>> collab hygiene (managed) >>>
+# .collab three-plane layout: only shared/ is tracked; travel rules live in the guard
+/.collab/*
+!/.collab/shared/
+/HANDOFF*.md
+/handoff-*.md
+/*.local.json
+/memory/
+# <<< collab hygiene (managed) <<<

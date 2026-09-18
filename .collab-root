@@ -1,0 +1,12 @@
+{
+  "collab_root": 1,
+  "id": "07d559b30a149648962b746961864163",
+  "name": "panda",
+  "kind": "collaboration",
+  "created": {
+    "host": "TMB",
+    "actor": "claude/a289b5db19ea4f70@TMB",
+    "ts": "2026-09-18T07:40:54Z"
+  },
+  "collab_version": "0.1.0"
+}
