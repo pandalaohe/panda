@@ -14,3 +14,5 @@ CLAUDE.md
 **/.pytest_cache/**
 .DS_Store
 # <<< collab-remote-fn travel (managed) <<<
+# GC dry-run reports (family docs.gc-reports) — machine-runtime output, writer-side trimmed by collab_gc_engine.py::_trim_old_reports
+docs/gc-reports/
