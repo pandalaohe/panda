@@ -1,6 +1,5 @@
 # >>> collab hygiene (managed) >>>
 .collab/shared/token-ledger.jsonl merge=union
-.collab/shared/debug-ledger.jsonl merge=union
 local_mods/events.jsonl merge=union
 .recycle/receipts.jsonl merge=union
 .collab/*/coordination/steward/sweep-log.jsonl merge=union

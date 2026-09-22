@@ -24,4 +24,5 @@ docs/gc-reports/
 /handoff-*.md
 /*.local.json
 /memory/
+/fullcycle-state*
 # <<< collab hygiene (managed) <<<
