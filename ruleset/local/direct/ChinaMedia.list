@@ -69,7 +69,6 @@ DOMAIN-SUFFIX,kankan.com
 DOMAIN-SUFFIX,baofeng.com
 DOMAIN-SUFFIX,wasu.cn
 DOMAIN-SUFFIX,bokecc.com
-DOMAIN-SUFFIX,inter.ptqy.gitv.tv
 IP-CIDR,23.40.241.251/32,no-resolve
 IP-CIDR,23.40.242.10/32,no-resolve
 IP-CIDR,103.44.56.0/22,no-resolve
@@ -121,3 +120,12 @@ DOMAIN-SUFFIX,xiaoyegejitar.com
 DOMAIN-SUFFIX,yekedrum.com
 DOMAIN-SUFFIX,yxixy.com
 DOMAIN-SUFFIX,zhangyue.com
+
+## WebLeak 2026-10-04 reviewed candidates
+DOMAIN-SUFFIX,365yg.com
+DOMAIN-SUFFIX,aisee.tv
+DOMAIN-SUFFIX,arkread.com
+DOMAIN-SUFFIX,fqnovelpic.com
+DOMAIN-SUFFIX,ptqy.gitv.tv
+DOMAIN-SUFFIX,qznovelvod.com
+DOMAIN-SUFFIX,vzuu.com
