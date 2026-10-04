@@ -23,6 +23,11 @@ dns:
   fake-ip-range: 198.18.0.0/16
   fake-ip-filter-mode: rule
   fake-ip-filter:
+    # Precise callback public-address compatibility; outbound stays OpenAI.
+    - DOMAIN,chatgpt.com,real-ip
+    - DOMAIN,chat.openai.com,real-ip
+    - DOMAIN,api.openai.com,real-ip
+    - DOMAIN,connectors.api.openai.com,real-ip
     # Real-IP/direct bindings must win before proxy AI/Claude/OpenAI parents.
     - RULE-SET,FakeIP_Direct_RealIP,real-ip
     - RULE-SET,Claude,fake-ip
@@ -68,6 +73,19 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   nameserver-policy:
+    # Callback DNS uses the existing reachable encrypted egress; application routing stays OpenAI.
+    "chatgpt.com":
+      - "https://dns.google/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+    "chat.openai.com":
+      - "https://dns.google/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+    "api.openai.com":
+      - "https://dns.google/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+    "connectors.api.openai.com":
+      - "https://dns.google/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
     "rule-set:FakeIP_Direct_RealIP":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query

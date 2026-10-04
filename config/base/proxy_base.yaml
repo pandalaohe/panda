@@ -40,6 +40,19 @@ dns:
       - "+.githubusercontent.com"
       - "+.googlevideo.com"
   nameserver-policy:
+    # Callback DNS uses the existing reachable encrypted egress; application routing stays OpenAI.
+    "chatgpt.com":
+      - "https://dns.google/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+    "chat.openai.com":
+      - "https://dns.google/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+    "api.openai.com":
+      - "https://dns.google/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+    "connectors.api.openai.com":
+      - "https://dns.google/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
     "+.steampowered.com":
       - "https://dns.google/dns-query#游戏平台"
       - "https://dns.cloudflare.com/dns-query#游戏平台"
