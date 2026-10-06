@@ -17,7 +17,6 @@
 .omnigent/**
 .recycle/**
 metrics/**
-AGENTS.md
 CLAUDE.md
 **/__pycache__/**
 **/.pytest_cache/**
