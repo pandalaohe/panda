@@ -11,17 +11,6 @@
 # ── .collab: three-plane layout (T260831-006) — only shared/ travels ──
 /.collab/*
 !/.collab/shared/
-# >>> collab-remote-fn travel (managed) >>>
-.claude/**
-.codex/**
-.omnigent/**
-.recycle/**
-metrics/**
-CLAUDE.md
-**/__pycache__/**
-**/.pytest_cache/**
-.DS_Store
-# <<< collab-remote-fn travel (managed) <<<
 # GC dry-run reports (family docs.gc-reports) — machine-runtime output, writer-side trimmed by collab_gc_engine.py::_trim_old_reports
 docs/gc-reports/
 # >>> collab hygiene (managed) >>>
@@ -33,4 +22,13 @@ docs/gc-reports/
 /*.local.json
 /memory/
 /fullcycle-state*
+/.claude
+/.codex
+/.omnigent
+/.recycle
+/metrics
+CLAUDE.md
+**/__pycache__/**
+**/.pytest_cache/**
+.DS_Store
 # <<< collab hygiene (managed) <<<
