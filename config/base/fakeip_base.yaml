@@ -76,16 +76,24 @@ dns:
     # Callback DNS uses the existing reachable encrypted egress; application routing stays OpenAI.
     "chatgpt.com":
       - "https://dns.google/dns-query#ZDY-TW1A"
-      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1B"
+      - "https://dns.google/dns-query#ZDY-VlessCN2"
+      - "https://dns.cloudflare.com/dns-query#ZDY-BWGJP"
     "chat.openai.com":
       - "https://dns.google/dns-query#ZDY-TW1A"
-      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1B"
+      - "https://dns.google/dns-query#ZDY-VlessCN2"
+      - "https://dns.cloudflare.com/dns-query#ZDY-BWGJP"
     "api.openai.com":
       - "https://dns.google/dns-query#ZDY-TW1A"
-      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1B"
+      - "https://dns.google/dns-query#ZDY-VlessCN2"
+      - "https://dns.cloudflare.com/dns-query#ZDY-BWGJP"
     "connectors.api.openai.com":
       - "https://dns.google/dns-query#ZDY-TW1A"
-      - "https://dns.cloudflare.com/dns-query#ZDY-TW1A"
+      - "https://dns.cloudflare.com/dns-query#ZDY-TW1B"
+      - "https://dns.google/dns-query#ZDY-VlessCN2"
+      - "https://dns.cloudflare.com/dns-query#ZDY-BWGJP"
     "rule-set:FakeIP_Direct_RealIP":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
